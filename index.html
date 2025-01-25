@@ -6,47 +6,38 @@
     <title>Teamsters Local 2024 Calendar</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-    <!-- Header Section -->
-    <header class="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white py-6 shadow-lg">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <h1 class="text-3xl sm:text-4xl font-extrabold uppercase tracking-wide">Teamsters Local 2024</h1>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-900 text-white relative shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-8 flex justify-between items-center">
+            <h1 class="text-2xl sm:text-3xl font-extrabold tracking-wide uppercase">Teamsters Local 2024</h1>
             <button 
                 onclick="window.location.href='mailto:n4n@jc43.org?subject=Volunteer Inquiry&body=Hello,%20I%20am%20interested%20in%20volunteering%20with%20Teamsters%20Local%202024.%20Here%20is%20some%20information%20about%20me:%0A%0AName:%20%0ACampus:%20%0APhone%20Number:%20%0A%0AThank%20you!'"
-                class="bg-white text-blue-700 px-6 py-2 rounded-full font-medium text-sm shadow-md hover:bg-gray-200 focus:outline-none focus:ring focus:ring-blue-300 transition">
+                class="bg-white text-blue-700 px-6 py-3 rounded-lg font-bold text-sm sm:text-base shadow-lg hover:bg-blue-100 focus:outline-none focus:ring focus:ring-blue-300 transition">
                 Volunteer
             </button>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="container mx-auto my-10 p-6 bg-white shadow-xl rounded-lg">
-        <!-- Upcoming Events Section -->
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 text-center mb-6">Upcoming Events</h2>
-            <div class="rounded-lg overflow-hidden shadow-lg">
-                <iframe 
-                    src="https://calendar.google.com/calendar/embed?height=700&wkst=1&ctz=America%2FDetroit&showPrint=0&title=Teamsters%20Local%202024&mode=AGENDA&showCalendars=0&src=OTMxNWE2ZDI0ZGRkOGM2NThkMTU3YTFhYjU0YTM3ZTIwOWQ5MjdjNjcwMjc3NDU3NDliODI4NDI0NTJmOTYyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60"
-                    class="w-full h-96 sm:h-[35rem] border-0">
-                </iframe>
-            </div>
+    <main class="max-w-6xl mx-auto my-8 p-6 bg-white shadow-md rounded-lg">
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center text-blue-700 mb-4">Upcoming Events</h2>
+            <iframe 
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showPrint=0&title=Teamsters%20Local%202024&mode=AGENDA&showCalendars=0&src=OTMxNWE2ZDI0ZGRkOGM2NThkMTU3YTFhYjU0YTM3ZTIwOWQ5MjdjNjcwMjc3NDU3NDliODI4NDI0NTJmOTYyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60"
+                class="w-full h-[30rem] rounded-md border border-gray-300 shadow-sm hover:shadow-lg transition-shadow">
+            </iframe>
         </section>
 
-        <!-- Full Calendar Section -->
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 text-center mb-6">Full Calendar</h2>
-            <div class="rounded-lg overflow-hidden shadow-lg">
-                <iframe 
-                    src="https://calendar.google.com/calendar/embed?height=700&wkst=1&ctz=America%2FDetroit&showPrint=0&title=Teamsters%20Local%202024&mode=MONTH&showCalendars=0&src=OTMxNWE2ZDI0ZGRkOGM2NThkMTU3YTFhYjU0YTM3ZTIwOWQ5MjdjNjcwMjc3NDU3NDliODI4NDI0NTJmOTYyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60"
-                    class="w-full h-96 sm:h-[35rem] border-0">
-                </iframe>
-            </div>
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center text-blue-700 mb-4">Full Calendar</h2>
+            <iframe 
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showPrint=0&title=Teamsters%20Local%202024&mode=MONTH&showCalendars=0&src=OTMxNWE2ZDI0ZGRkOGM2NThkMTU3YTFhYjU0YTM3ZTIwOWQ5MjdjNjcwMjc3NDU3NDliODI4NDI0NTJmOTYyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60"
+                class="w-full h-[30rem] rounded-md border border-gray-300 shadow-sm hover:shadow-lg transition-shadow">
+            </iframe>
         </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white py-8 text-center shadow-lg rounded-t-lg">
-        <p class="text-sm">&copy; 2025 Teamsters Local 2024. All rights reserved.</p>
+    <footer class="bg-blue-700 text-white text-center py-4 mt-8">
+        <p>&copy; 2025 Teamsters Local 2024. All rights reserved.</p>
     </footer>
 </body>
 </html>
