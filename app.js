@@ -63,8 +63,6 @@ repName.innerHTML = representatives[campus]
     </div>
   `)
   .join('');
-      `)
-      .join('');
   } else {
     campusName.style.display = 'none';
     repInfo.style.display = 'none';
