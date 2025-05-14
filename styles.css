@@ -1,4 +1,3 @@
-/* CSS Variables */
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
@@ -22,26 +21,30 @@ body {
 /* Header */
 header {
   background: none;
-  padding: 40px 0 10px;
+  padding: 40px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo {
+  max-height: 120px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 header h1 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  margin: 0;
   color: var(--highlight-color);
-}
-
-/* Logo */
-.logo {
-  max-height: 160px;
-  max-width: 350px;
-  width: auto;
-  height: auto;
-  margin: 0 auto 15px;
-  display: block;
+  text-align: left;
 }
 
 /* Main */
@@ -102,7 +105,7 @@ select option {
 
 /* Campus Name */
 #campus-name {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   color: var(--primary-color);
   margin-top: 30px;
@@ -178,21 +181,27 @@ footer {
 
 /* Responsive Tweaks */
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 22px;
+  header {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .logo {
-    max-height: 130px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
   }
 
-  select {
-    font-size: 16px;
+  header h1 {
+    font-size: 24px;
+    text-align: center;
   }
 
   main h2 {
     font-size: 20px;
+  }
+
+  select {
+    font-size: 16px;
   }
 
   .rep-card {
