@@ -11,38 +11,43 @@
 
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: var(--background-color);
   color: var(--neutral-color);
   margin: 0;
   padding: 0;
   text-align: center;
 }
+
+/* Header */
 header {
-  background: linear-gradient(90deg, #0066CC, #003399); /* Vibrant gradient matching the Weingarten card */
-  color: #ffd700; /* Yellow font */
-  padding: 30px 0; /* Add spacing for the header */
-    text-transform: uppercase; /* Capitalize all letters */
+  background: linear-gradient(90deg, #0066CC, #003399);
+  color: #ffd700;
+  padding: 30px 0;
+  text-transform: uppercase;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 header h1 {
-  font-size: 26px !important; /* Slightly larger font for emphasis */
-  font-weight: bold; /* Keep bold styling */
-  text-transform: uppercase; /* Capitalize all letters */
-  letter-spacing: 1.2px; /* Add more spacing for a clean look */
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
   margin: 0;
-  line-height: 1.4; /* Slightly increased line height */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add depth to the text */
-}
+  line-height: 1.4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 18px !important; /* Force smaller font size on mobile */
-    letter-spacing: 0.4px; /* Adjust spacing for clarity */
-  }
+/* Logo Styling */
+.logo {
+  max-height: 80px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+  margin: 0 auto 10px auto;
+  display: block;
 }
+
 /* Main Section */
 main {
   display: flex;
@@ -61,17 +66,17 @@ main {
 
 /* Select Dropdown */
 select {
+  appearance: none;
   width: 100%;
   padding: 15px 20px;
   font-size: 18px;
-  border: 2px solid #ccc;
+  border: 2px solid var(--border-color);
   border-radius: 8px;
-  background: white;
-  appearance: none;
+  background-color: white;
   color: #333;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Centers the text horizontally */
-  text-align-last: center; /* Ensures the selected text stays centered */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-align-last: center;
 }
 
 select:focus {
@@ -80,77 +85,37 @@ select:focus {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Styling for Placeholder */
-select:invalid {
-  color: #aaa; /* Light gray for placeholder */
+select option[value=""] {
+  display: none;
 }
 
-/* Ensure other options are also centered */
+select:invalid {
+  color: #aaa;
+}
+
 select option {
   text-align: center;
-  color: #333; /* Default color for options */
-}
-
-/* Floating Label */
-.floating-label {
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  transform: translateY(-50%);
-  font-size: 18px;
-  color: #666;
-  background: var(--background-color); /* Prevent overlap */
-  padding: 0 5px; /* Padding for spacing */
-  pointer-events: none; /* Prevent interaction */
-  transition: all 0.3s ease-in-out;
-}
-
-/* Move the label above when the dropdown has focus or a value */
-select:focus + .floating-label,
-select:not([value=""]) + .floating-label {
-  top: -12px;
-  left: 15px;
-  font-size: 14px;
-  color: var(--link-color); /* Highlight label */
-}
-
-/* Remove redundant placeholder style */
-select {
-  appearance: none; /* Disable default dropdown styling */
-  width: 100%;
-  padding: 15px;
-  font-size: 18px;
-  border: 2px solid var(--border-color);
-  border-radius: 8px;
-  background-color: white;
   color: #333;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-select:focus {
-  border-color: #007BFF;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-select option[value=""] {
-  display: none; /* Hide the empty option from being visible */
-}
-
-/* Campus Name (Title After Selection) */
+/* Campus Name */
 #campus-name {
-  font-size: 28px; /* Slightly larger font size */
-  font-weight: bold; /* Make it stand out */
-  color: #000; /* Set to black for a polished look */
-  margin-top: 25px; /* Add some space above */
-  text-transform: capitalize; /* Capitalize each word */
-  letter-spacing: 0.5px; /* Add subtle letter spacing for readability */
-  text-align: center; /* Ensure it's centered */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a slight shadow for polish */
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 25px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* Representative Cards */
 #rep-info {
   text-align: left;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
 }
 
 .rep-card {
@@ -160,11 +125,11 @@ select option[value=""] {
   border-radius: 8px;
   background: var(--card-background);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  line-height: 1.8; /* Increase line height for better spacing */
+  line-height: 1.8;
 }
 
 .rep-card div {
-  margin-bottom: 10px; /* Add spacing between each item */
+  margin-bottom: 10px;
 }
 
 .rep-card div span:first-child {
@@ -181,6 +146,30 @@ select option[value=""] {
   text-decoration: underline;
 }
 
+/* Image Container Styling */
+.image-container {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 90%;
+  padding: 15px;
+}
+
+.responsive-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.responsive-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
 /* Footer */
 footer {
   margin-top: 20px;
@@ -195,6 +184,7 @@ footer {
 @media (max-width: 768px) {
   header h1 {
     font-size: 20px;
+    letter-spacing: 0.4px;
   }
 
   main {
@@ -202,48 +192,22 @@ footer {
   }
 
   select {
-    font-size: 16px; /* Slightly smaller for small screens */
+    font-size: 16px;
     padding: 12px 15px;
   }
 
   main h2 {
-  font-size: 22px; /* Modern font size */
-  font-weight: bold; /* Emphasize the title */
-  color: #003399; /* Use a deeper blue for consistency */
-  text-transform: uppercase; /* Capitalize for emphasis */
-  letter-spacing: 0.8px; /* Subtle spacing for a clean look */
-  margin-bottom: 15px; /* Add space below the title */
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
+    font-size: 22px;
+    font-weight: bold;
+    color: #003399;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .rep-card {
     padding: 10px;
   }
-}
-/* Image Container Styling */
-.image-container {
-  margin: 20px auto; /* Center the container */
-  text-align: center; /* Center-align the content */
-  max-width: 90%; /* Restrict container width */
-  padding: 15px; /* Add spacing around the image */
-}
-
-/* Image Styling */
-.responsive-image {
-  width: 100%; /* Scale the image to fit the container */
-  max-width: 300px; /* Restrict the maximum width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure no inline spacing issues */
-  margin: 0 auto; /* Center-align the image */
-  border-radius: 8px; /* Rounded corners for the image */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
-
-/* Hover Effect for Image */
-.responsive-image:hover {
-  transform: translateY(-5px); /* Slight upward lift on hover */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
