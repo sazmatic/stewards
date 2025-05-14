@@ -282,7 +282,23 @@ footer {
 .email-button:hover {
   background-color: #0056b3;
 }
+.phone-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #28a745; /* Green */
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+}
 
+.phone-button:hover {
+  background-color: #218838;
+  color: #fff !important;
+}
 /* ========================= */
 /*         Q&A Section       */
 /* ========================= */
