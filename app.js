@@ -59,8 +59,7 @@ function handleCampusChange() {
         <div class="rep-card">
           <div><span>Name:</span><span>${rep.name}</span></div>
           <div><span>Phone:</span><a href="tel:${rep.phone.replace(/-/g, '')}">${rep.phone}</a></div>
-          <div><span>Email:</span><a href="mailto:${rep.email}">${rep.email}</a></div>
-        </div>
+<div><span>Email:</span><a href="mailto:${rep.email}" class="email-button">Email</a></div>
       `)
       .join('');
   } else {
