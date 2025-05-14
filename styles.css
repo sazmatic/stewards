@@ -50,7 +50,6 @@ body {
   height: auto;
 }
 
-/* Smaller, cleaner title */
 .hero-title {
   font-size: 28px;
   font-weight: 700;
@@ -64,6 +63,8 @@ body {
   background-color: #f0f4f9;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  white-space: nowrap;       /* ✅ keeps it on one line */
+  overflow-x: auto;          /* ✅ lets it scroll if needed */
 }
 }
 
