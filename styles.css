@@ -260,3 +260,42 @@ footer {
     gap: 10px;
   }
 }
+
+/* ========================= */
+/*         Q&A Section       */
+/* ========================= */
+
+.qa-section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.qa-section h2 {
+  font-size: 26px;
+  color: var(--highlight-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.qa-item {
+  margin-bottom: 25px;
+  border-left: 4px solid var(--highlight-color);
+  padding-left: 15px;
+}
+
+.qa-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #003366;
+}
+
+.qa-item p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
