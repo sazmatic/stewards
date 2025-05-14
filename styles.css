@@ -46,7 +46,7 @@ body {
 
 /* Bigger logo */
 .logo {
-  max-width: 230px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -222,7 +222,7 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-    max-width: 140px;
+    max-width: 200px;
   }
 
   .hero-title {
