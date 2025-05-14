@@ -260,17 +260,23 @@ footer {
     gap: 10px;
   }
 }
-
 .email-button {
   display: inline-block;
   padding: 6px 14px;
   background-color: var(--accent-color);
-  color: white;
+  color: #fff !important;  /* Forces white text */
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  margin-left: 5px;
+}
+
+.email-button:hover {
+  background-color: #0056b3;
+  color: #fff !important;
+}
 }
 
 .email-button:hover {
