@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #003366
+  --highlight-color: #FFB300;
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
@@ -18,61 +18,58 @@ body {
   text-align: center;
 }
 
-/* Header */
-header {
-  background: none;
-  padding: 40px 20px 20px;
-}
+/* ========================= */
+/*        HERO HEADER        */
+/* ========================= */
 
-.header-content {
+.hero {
+  background: #fff;
+  padding: 40px 20px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px; /* Much tighter spacing */
-}
-}
-
-/* Logo — centered + large */
-.logo {
-  max-height: 300px;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Title Container */
-.header-text {
   text-align: center;
 }
 
-/* Title */
-header h1 {
-  font-size: 26px;
-  font-weight: 600;
+/* Logo */
+.logo {
+  max-width: 220px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Hero Title */
+.hero-title {
+  font-size: 36px;
+  font-weight: 700;
   color: var(--highlight-color);
   text-transform: uppercase;
+  letter-spacing: 1px;
   margin: 0;
-  letter-spacing: 0.5px;
-  border: 1.5px solid var(--highlight-color);
-  padding: 8px 16px;
-  display: inline-block;
-  border-radius: 6px;
+  border: 2px solid var(--highlight-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* Subtitle */
-.subtitle {
+.hero-subtitle {
   font-size: 18px;
-  color: var(--text-muted);
   font-weight: 400;
-  margin-top: 10px;
+  color: var(--text-muted);
+  margin-top: 15px;
+  padding: 6px 14px;
   border: 1px solid #ccc;
-  padding: 8px 16px;
-  display: inline-block;
   border-radius: 6px;
+  display: inline-block;
+  max-width: 90%;
 }
 
-/* Main */
+/* ========================= */
+/*           MAIN            */
+/* ========================= */
+
 main {
   display: flex;
   flex-direction: column;
@@ -80,17 +77,17 @@ main {
   padding: 30px 20px;
 }
 
+/* Campus Dropdown Title */
 main h2 {
   font-size: 22px;
   font-weight: bold;
-  color: #003366; /* Navy Blue */
+  color: #003366; /* Navy blue */
   text-transform: uppercase;
   letter-spacing: 0.8px;
   margin-bottom: 20px;
 }
-}
 
-/* Dropdown */
+/* Dropdown Menu */
 .dropdown-wrapper {
   width: 100%;
   max-width: 400px;
@@ -129,7 +126,10 @@ select option {
   color: #333;
 }
 
-/* Campus Name */
+/* ========================= */
+/*        REP SECTION        */
+/* ========================= */
+
 #campus-name {
   font-size: 24px;
   font-weight: 600;
@@ -138,7 +138,6 @@ select option {
   text-transform: capitalize;
 }
 
-/* Rep Info Container */
 #rep-info {
   text-align: left;
   width: 100%;
@@ -146,7 +145,6 @@ select option {
   margin-top: 20px;
 }
 
-/* Rep Card */
 .rep-card {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -175,7 +173,10 @@ select option {
   text-decoration: underline;
 }
 
-/* Weingarten Rights Image */
+/* ========================= */
+/*        IMAGE STYLING      */
+/* ========================= */
+
 .image-container {
   margin: 40px auto 0;
   text-align: center;
@@ -195,7 +196,10 @@ select option {
   transform: translateY(-5px);
 }
 
-/* Footer */
+/* ========================= */
+/*          FOOTER           */
+/* ========================= */
+
 footer {
   margin-top: 50px;
   padding: 20px;
@@ -205,23 +209,28 @@ footer {
   border-top: 1px solid var(--border-color);
 }
 
-/* Responsive Tweaks */
+/* ========================= */
+/*        RESPONSIVE         */
+/* ========================= */
+
 @media (max-width: 768px) {
-  .header-content {
-    gap: 10px;
+  .hero {
+    padding: 30px 15px 20px;
   }
 
   .logo {
-    max-height: 240px;
+    max-width: 160px;
+    margin-bottom: 15px;
   }
 
-  header h1 {
-    font-size: 22px;
+  .hero-title {
+    font-size: 24px;
+    padding: 10px 18px;
   }
 
-  .subtitle {
+  .hero-subtitle {
     font-size: 16px;
-    padding: 6px 12px;
+    margin-top: 10px;
   }
 
   main h2 {
