@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #FFB300; /* Updated Orange */
+  --highlight-color: #003366
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
@@ -212,7 +212,7 @@ footer {
   }
 
   .logo {
-    max-height: 300px;
+    max-height: 240px;
   }
 
   header h1 {
