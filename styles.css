@@ -54,10 +54,17 @@ body {
 .hero-title {
   font-size: 28px;
   font-weight: 700;
-  color: var(--highlight-color);
+  color: var(--highlight-color); /* Navy Blue */
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   margin: 0;
+  padding: 12px 24px;
+  border: 2px solid var(--highlight-color);
+  border-radius: 8px;
+  background-color: #f0f4f9;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
 }
 
 /* Subtitle below */
