@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #f5a623; /* Orange-yellow */
+  --highlight-color: #f5a623;
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
@@ -18,25 +18,24 @@ body {
   text-align: center;
 }
 
-/* Header Wrapper */
+/* Header */
 header {
   background: none;
   padding: 40px 20px 20px;
 }
 
-/* Logo + Title + Subtitle Grouping */
 .header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 
-/* Logo Styling */
+/* Logo — scaled up */
 .logo {
-  max-height: 180px;
-  height: auto;
+  max-height: 200px;
   width: auto;
+  height: auto;
   display: block;
 }
 
@@ -45,22 +44,20 @@ header {
   text-align: center;
 }
 
-/* Title */
 header h1 {
-  font-size: 42px;
-  font-weight: 800;
+  font-size: 28px;
+  font-weight: 700;
   color: var(--highlight-color);
   text-transform: uppercase;
-  margin: 10px 0 0;
-  letter-spacing: 1.5px;
+  margin: 5px 0 0;
+  letter-spacing: 1px;
 }
 
-/* Subtitle */
 .subtitle {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--text-muted);
-  font-weight: 500;
-  margin-top: 10px;
+  font-weight: 400;
+  margin-top: 6px;
 }
 
 /* Main */
@@ -72,7 +69,7 @@ main {
 }
 
 main h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: var(--highlight-color);
   text-transform: uppercase;
@@ -121,7 +118,7 @@ select option {
 
 /* Campus Name */
 #campus-name {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--primary-color);
   margin-top: 30px;
@@ -202,11 +199,11 @@ footer {
   }
 
   .logo {
-    max-height: 130px;
+    max-height: 160px;
   }
 
   header h1 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .subtitle {
@@ -214,7 +211,7 @@ footer {
   }
 
   main h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   select {
