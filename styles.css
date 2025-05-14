@@ -82,10 +82,11 @@ main {
 main h2 {
   font-size: 22px;
   font-weight: bold;
-  color: var(--highlight-color);
+  color: #003366; /* Navy Blue */
   text-transform: uppercase;
   letter-spacing: 0.8px;
   margin-bottom: 20px;
+}
 }
 
 /* Dropdown */
