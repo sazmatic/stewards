@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #f5a623;
+  --highlight-color: #FFB300; /* Updated Orange */
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
@@ -31,19 +31,21 @@ header {
   gap: 15px;
 }
 
-/* Logo — scaled up */
+/* Logo — centered + large */
 .logo {
   max-height: 200px;
   width: auto;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
-/* Header Text */
+/* Title Container */
 .header-text {
   text-align: center;
 }
 
+/* Title */
 header h1 {
   font-size: 28px;
   font-weight: 700;
@@ -51,13 +53,22 @@ header h1 {
   text-transform: uppercase;
   margin: 5px 0 0;
   letter-spacing: 1px;
+  border: 2px solid var(--highlight-color);
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
 }
 
+/* Subtitle */
 .subtitle {
   font-size: 18px;
   color: var(--text-muted);
   font-weight: 400;
-  margin-top: 6px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 6px;
 }
 
 /* Main */
@@ -208,6 +219,7 @@ footer {
 
   .subtitle {
     font-size: 16px;
+    padding: 6px 12px;
   }
 
   main h2 {
