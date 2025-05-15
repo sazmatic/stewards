@@ -159,9 +159,9 @@ function handleCampusChange() {
 repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
-      <div><strong>${rep.name}</strong></div>
+      <div class="rep-name"><strong>${rep.name}</strong></div>
       ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
-      <div>
+      <div class="rep-buttons">
         ${rep.phone ? `<a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>` : ''}
         ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
       </div>
