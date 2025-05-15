@@ -33,8 +33,19 @@ const representatives = {
     { name: "Sarah Phillips", email: "sarahphillips.m@gmail.com" }
   ],
   "Farmington Hills": [
+    { name: "Amy Blunden", email: "anblunden@gmail.com" },
+    { name: "Anita Dixon", email: "anitadixon6589@yahoo.com" },
+    { name: "Bianca Sword", email: "bbkubicki@gmail.com" },
+    { name: "Chau Tran Yang", email: "cmeyang@me.com" },
+    { name: "Debbie Miracle", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
+    { name: "Erin Gossett", email: "Nurseerin2012@yahoo.com" },
+    { name: "Hanna Byrnes", email: "hannambyrnes@gmail.com" },
+    { name: "Kate Oakford", email: "Koakford@gmail.com" },
+    { name: "Kelly Kinney", email: "Kellybelle79@gmail.com" },
+    { name: "Lisa Alvord", email: "Mommy42265@yahoo.com" },
+    { name: "Liz Sergison", email: "lizsergison@yahoo.com" },
     { name: "Misty Croteau", phone: "734-658-0815", email: "mcroteau84@gmail.com" },
-    { name: "Debbie Miracle", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" }
+    { name: "Sarah Barker", email: "lynnsarah812@gmail.com" }
   ],
   "Grosse Pointe": [
     { name: "Holly Kowal", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
