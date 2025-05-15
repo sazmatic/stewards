@@ -2,9 +2,9 @@ document.getElementById('campus-select').addEventListener('change', handleCampus
 
 const representatives = {
   "Royal Oak": [
-    { name: "Sarah Johnson", title: "RN", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
-    { name: "Lori Greenlee", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
-    { name: "Sargon Mikho", phone: "586-567-1995", email: "s.mikho@icloud.com" }
+    { name: "Sarah Johnson", title: "RN, _____", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
+    { name: "Sargon Mikho", title: "RN, progressive care", phone: "586-567-1995", email: "s.mikho@icloud.com" },
+    { name: "Lori Greenlee", title: "RN, FBC", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
   ],
   "Troy": [
     { name: "Katherine Wallace", phone: "248-404-8084", email: "gr8chi@aol.com" },
