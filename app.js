@@ -162,7 +162,10 @@ repName.innerHTML = representatives[campus]
       <div class="rep-name"><strong>${rep.name}</strong></div>
       ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
       <div class="rep-buttons">
-        ${rep.phone ? `<a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>` : ''}
+        ${rep.phone ? `
+          <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
+          <a href="sms:${rep.phone.replace(/-/g, '')}" class="text-button">Text</a>
+        ` : ''}
         ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
       </div>
     </div>
