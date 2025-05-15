@@ -326,6 +326,20 @@ footer {
   background-color: #218838;
   color: #fff !important;
 }
+.text-button {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745; /* green for text */
+  transition: background-color 0.2s ease;
+}
+
+.text-button:hover {
+  background-color: #1e7e34;
+}
 /* ========================= */
 /*         Q&A Section       */
 /* ========================= */
