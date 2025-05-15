@@ -2,7 +2,7 @@ document.getElementById('campus-select').addEventListener('change', handleCampus
 
 const representatives = {
   "Royal Oak": [
-    { name: "Sarah Johnson", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
+    { name: "Sarah Johnson", title: RN, phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
     { name: "Lori Greenlee", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
     { name: "Sargon Mikho", phone: "586-567-1995", email: "s.mikho@icloud.com" }
   ],
@@ -55,13 +55,14 @@ function handleCampusChange() {
 
 repName.innerHTML = representatives[campus]
   .map(rep => `
- <div class="rep-card">
-  <div><span>Name:</span><span>${rep.name}</span></div>
-  <div>
-    <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
-    <a href="mailto:${rep.email}" class="email-button">Email</a>
-  </div>
-</div>
+    <div class="rep-card">
+      <div><strong>${rep.name}</strong></div>
+      ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
+      <div>
+        <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
+        <a href="mailto:${rep.email}" class="email-button">Email</a>
+      </div>
+    </div>
   `)
   .join('');
   } else {
