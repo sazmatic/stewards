@@ -9,7 +9,6 @@ const representatives = {
   "Troy": [
     { name: "Katherine Wallace", phone: "248-404-8084", email: "gr8chi@aol.com" },
     { name: "Suzi Carbone", phone: "586-944-4520", email: "spcarbone3@gmail.com" },
-    { name: "Shawn Hills", phone: "586-439-8799", email: "hillisshawn01@gmail.com" },
     { name: "Marley Shook, NP", phone: "586-567-3122", email: "Marleyshook313@gmail.com" }
   ],
   "Dearborn": [
