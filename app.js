@@ -12,7 +12,6 @@ const representatives = {
     { name: "Marley Shook, NP", phone: "586-567-3122", email: "Marleyshook313@gmail.com" }
   ],
   "Dearborn": [
-      "Dearborn": [
     { name: "Alan Matzelt", email: "alcmatzelt1@aol.com" },
     { name: "Alyse Derry", email: "alysela.badie@gmail.com" },
     { name: "Alyson Zajac", email: "alysomething@msn.com" },
@@ -28,7 +27,7 @@ const representatives = {
     { name: "Makayla Burke", email: "burkexoh@gmail.com" },
     { name: "Marissa Kobmann", email: "mkobmann1@yahoo.com" },
     { name: "Melissa Barnett", email: "michelle.p.barnett@gmail.com" },
-    { name: "Michella Vincent", phone: "313-585-1858", email: "michella.vincent@yahoo.com" }
+    { name: "Michella Vincent", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
     { name: "Renee Mowery", email: "remo1327@yahoo.com" },
     { name: "Sarah Brock", email: "sarah.brock.612@gmail.com" },
     { name: "Sarah Phillips", email: "sarahphillips.m@gmail.com" }
