@@ -169,18 +169,26 @@ select option {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   max-width: 300px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
 }
 
 .rep-name {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
 }
 
 .rep-title {
   font-size: 14px;
   color: #555;
   margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
 }
 
 .rep-buttons {
