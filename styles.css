@@ -337,3 +337,10 @@ footer {
   color: #444;
   line-height: 1.6;
 }
+
+.rep-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
