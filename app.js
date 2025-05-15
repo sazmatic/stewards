@@ -64,7 +64,7 @@ const representatives = {
     { name: "Sarah Stiegler", email: "sadie.stiegler@gmail.com" },
     { name: "Suzi Carbone", phone: "586-944-4520", email: "spcarbone3@gmail.com" },
     { name: "Vincent Tucker", email: "vincent.tucker@hotmail.com" },
-    ]
+    ],
   "Dearborn": [
     { name: "Alan Matzelt", email: "alcmatzelt1@aol.com" },
     { name: "Alyse Derry", email: "alysela.badie@gmail.com" },
