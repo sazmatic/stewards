@@ -327,14 +327,22 @@ footer {
   color: #fff !important;
 }
 .text-button {
-  padding: 8px 14px;
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #ffc107; /* Amber for contrast */
+  color: #fff !important;
   font-size: 14px;
-  border: none;
-  border-radius: 6px;
+  font-weight: 600;
   text-decoration: none;
-  color: #fff;
-  background-color: #28a745; /* green for text */
-  transition: background-color 0.2s ease;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+}
+
+.text-button:hover {
+  background-color: #e0a800;
+  color: #fff !important;
+}
 }
 
 .text-button:hover {
