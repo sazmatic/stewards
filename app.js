@@ -60,7 +60,7 @@ const representatives = {
     { name: "Angela Oltean", email: "angela.emory44@yahoo.com" },
     { name: "Ashley Kraft", email: "ashbroski@gmail.com" },
     { name: "Barb Douglas", phone: "248-565-6594", email: "bdouglas78@icloud.com" },
-    { name: "Brenda Tesnar", phone: "248-895-5738", email: "Beetesnar71@gmail.com" },
+    { name: "Brenda Tesnar", shift: "Night", phone: "248-895-5738", email: "Beetesnar71@gmail.com" },
     { name: "Christy Finn", phone: "586-855-1247", email: "cfinn1980@sbcglobal.net" },
     { name: "Devon Timmerman", email: "timmerman.nursing@gmail.com" },
     { name: "Donna Bazinski", email: "dmbazinski@yahoo.com" },
