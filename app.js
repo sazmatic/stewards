@@ -5,7 +5,7 @@ const representatives = {
     { name: "Carol Sharp", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
     { name: "Christine Baker", email: "chrstnpetri@yahoo.com" },
     { name: "Christine Young", email: "chrstnpetri@yahoo.com" },
-    { name: "Claire Steffes", email: "Claireniehaus@yahoo.com" },
+    { name: "Claire Steffes", phone: "248-787-0171", email: "Claireniehaus@yahoo.com" },
     { name: "Elisse Beausoleil", phone: "248-320-8035", email: "elissea@gmail.com" },
     { name: "Emmy Castillon", email: "Emmylynncoronel@gmail.com" },
     { name: "Jacquelyn Whitmore", email: "Jczarn01@outlook.com" },
