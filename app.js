@@ -55,7 +55,6 @@ const representatives = {
     { name: "Karen Shubring", email: "kschub60@gmail.com" },
     { name: "Katherine Wallace", phone: "248-404-8084", email: "gr8chi@aol.com" },
     { name: "Lisa Funke", email: "funkelisa80@yahoo.com" },
-    { name: "Liz Rossi", email: "ayalizzy@yahoo.com" },
     { name: "Mary Kulha", email: "arykulha@hotmail.com" },
     { name: "Melinda (Mindy) Martone", email: "Amamabear3@gmail.com" },
     { name: "Sarah Stiegler", email: "sadie.stiegler@gmail.com" },
