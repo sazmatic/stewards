@@ -45,7 +45,7 @@ const representatives = {
     { name: "Natalie Richmond", shift: "Day", unit: "Progressive Care", phone: "248-873-7373", email: "littlemissrichmond@gmail.com" },
     { name: "Rachael Patton", shift: "Day", unit: "Mother Baby", email: "Rachael.patton@icloud.com" },
     { name: "Rachel Szadyr", shift: "Day", unit: "ICU", phone: "248-408-8946", email: "szadyrr@gmail.com" },
-    { name: "Sarah Johnson", shift: "Day", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
+    { name: "Sarah Johnson", shift: "Day", unit: "Royal Oak", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
     { name: "Sargon Mikho", shift: "Day", unit: "Progressive Care", phone: "586-567-1995", email: "s.mikho@icloud.com" },
     { name: "Sharon McCombs", shift: "Night", phone: "313-530-9195", email: "Smrn714@gmail.com" },
     { name: "Stephanie Leneway", shift: "Day", phone: "248-854-4527", email: "Stephann3@mac.com" },
