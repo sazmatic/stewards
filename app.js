@@ -50,9 +50,9 @@ const representatives = {
     { name: "Sharon McCombs", shift: "Night", unit: "PACU", phone: "313-530-9195", email: "Smrn714@gmail.com" },
     { name: "Stephanie Leneway", shift: "Day", unit: "PACU", phone: "248-854-4527", email: "Stephann3@mac.com" },
     { name: "Steven Darvill", shift: "Day", unit: "APP", title: "Nurse Practitioner", phone: "248-709-6473", email: "stevendarvill88@gmail.com" },
-    { name: "William Lootens", shift: "Night", email: "billyonair@aol.com" },
-    { name: "Yvonne Marchesseault", shift: "Day", email: "Fifimarch@yahoo.com" },
-    { name: "Zak Shugart", shift: "Day", email: "Zak.shugart@gmail.com" },
+    { name: "William Lootens", shift: "Night", unit: "Emergency", email: "billyonair@aol.com" },
+    { name: "Yvonne Marchesseault", shift: "Day", unit: "Rad. Onc.", email: "Fifimarch@yahoo.com" },
+    { name: "Zak Shugart", shift: "Day", unit: "WOC", email: "Zak.shugart@gmail.com" },
   ],
   "Troy": [
     { name: "Amy Held", phone: "248-703-2246", email: "ymaheld@gmail.com" },
