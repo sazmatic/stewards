@@ -23,11 +23,11 @@ const representatives = {
     { name: "Sarah Phillips", email: "sarahphillips.m@gmail.com" }
   ],
   "Royal Oak": [
-    { name: "Carol Sharp", shift: "Day", unit: "Surgical", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
-    { name: "Christine Baker", shift: "Night", unit: "FBC", email: "chrstnpetri@yahoo.com" },
-    { name: "Christine Young", shift: "Night", unit: "FBC", email: "chrstnpetri@yahoo.com" },
-    { name: "Claire Steffes", shift: "Day", phone: "248-787-0171", email: "Claireniehaus@yahoo.com" },
-    { name: "Elisse Beausoleil", shift: "Day", unit: "Emergency", phone: "248-320-8035", email: "elissea@gmail.com" },
+    { name: "Carol Sharp", shift: "Day", unit: "RN", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
+    { name: "Christine Baker", shift: "Night", unit: "RN", email: "chrstnpetri@yahoo.com" },
+    { name: "Christine Young", shift: "Night", unit: "RN", email: "chrstnpetri@yahoo.com" },
+    { name: "Claire Steffes", shift: "Day", unit: "RN", phone: "248-787-0171", email: "Claireniehaus@yahoo.com" },
+    { name: "Elisse Beausoleil", shift: "Day", unit: "RN", phone: "248-320-8035", email: "elissea@gmail.com" },
     { name: "Emily Bogart", shift: "Day", title: "Nurse Practitioner", email: "embogart@gmail.com" },
     { name: "Emmy Castillon", shift: "Day", unit: "CCS", email: "Emmylynncoronel@gmail.com" },
     { name: "Jacquelyn Whitmore", shift: "Day", phone: "734-837-3291", email: "Jczarn01@outlook.com" },
