@@ -33,7 +33,7 @@ const representatives = {
     { name: "Jill Judkins", email: "timjudkins@comcast.net" },
     { name: "Judie Laverdiere", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", email: "Lucykayla2@yahoo.com" },
-    { name: "Julie Hicks", email: "Juliemhicks123@yahoo.com" },
+    { name: "Julie Hicks", phone: "248-840-0325", email: "Juliemhicks123@yahoo.com" },
     { name: "Katelyn Savage", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
     { name: "Linda Plunkett", email: "Busyrnc28@gmail.com" },
     { name: "Lindsey Dye", email: "Linds9867@yahoo.com" },
@@ -58,7 +58,7 @@ const representatives = {
     { name: "Ashley Kraft", email: "ashbroski@gmail.com" },
     { name: "Barb Douglas", phone: "248-565-6594", email: "bdouglas78@icloud.com" },
     { name: "Brenda Tesnar", email: "Beetesnar71@gmail.com" },
-    { name: "Christy Finn", email: "cfinn1980@sbcglobal.net" },
+    { name: "Christy Finn", phone: "586-855-1247", email: "cfinn1980@sbcglobal.net" },
     { name: "Devon Timmerman", email: "timmerman.nursing@gmail.com" },
     { name: "Donna Bazinski", email: "dmbazinski@yahoo.com" },
     { name: "Doreen Gwinn", email: "gwinns2000@gmail.com" },
@@ -103,8 +103,8 @@ const representatives = {
     { name: "Giulia Heiden", email: "giulia.calimazzo@gmail.com" },
     { name: "Holly Kowal", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
-    { name: "Samantha Parisi", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", email: "sbrooks827@yahoo.com" }
+    { name: "Samantha Parisi", title: "Lenox campus", email: "samantharn92@gmail.com" },
+    { name: "Stephanie Brooks", title: "Lenox campus", email: "sbrooks827@yahoo.com" }
   ],
   "Wayne": [
     { name: "Amanda Layne", email: "alayne824@gmail.com" },
