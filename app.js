@@ -121,7 +121,7 @@ const representatives = {
     { name: "Tracy Barr", email: "morkielu@yahoo.com" },
   ],
   "Southfield": [
-    { name: "Amy Pinneo", email: "helmamy13@gmail.com" },
+    { name: "Amy Pinneo", phone: "313-445-0710", email: "helmamy13@gmail.com" },
     { name: "Jana Nicol Weinert", email: "Jnb904@hotmail.com" },
     { name: "Katie Wilson", title: "Flex RN", phone: "313-400-6424", email: "kwilso65@emich.edu" },
     { name: "Lindsey Paulick", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
