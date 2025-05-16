@@ -103,8 +103,8 @@ const representatives = {
     { name: "Giulia Heiden", email: "giulia.calimazzo@gmail.com" },
     { name: "Holly Kowal", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
-    { name: "Samantha Parisi", title: "Lenox campus", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", title: "<em>Lenox campus</em>", email: "sbrooks827@yahoo.com" }
+    { name: "Samantha Parisi", title: "<em>Lenox Campus</em>", email: "samantharn92@gmail.com" },
+    { name: "Stephanie Brooks", title: "<em>Lenox Campus</em>", email: "sbrooks827@yahoo.com" }
   ],
   "Wayne": [
     { name: "Amanda Layne", email: "alayne824@gmail.com" },
