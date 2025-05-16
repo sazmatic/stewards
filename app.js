@@ -99,7 +99,7 @@ const representatives = {
     { name: "Lisa Alvord", email: "Mommy42265@yahoo.com" },
     { name: "Liz Sergison", email: "lizsergison@yahoo.com" },
     { name: "Misty Croteau", phone: "734-658-0815", email: "mcroteau84@gmail.com" },
-    { name: "Sarah Barker", email: "lynnsarah812@gmail.com" }
+    { name: "Sarah Barker", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
   ],
   "Grosse Pointe": [
     { name: "Bill Braasch", email: "williambraasch@hotmail.com" },
