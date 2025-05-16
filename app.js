@@ -2,7 +2,7 @@ document.getElementById('campus-select').addEventListener('change', handleCampus
 
 const representatives = {
   "Royal Oak": [
-    { name: "Carol Sharp", email: "Sharp48348@gmail.com" },
+    { name: "Carol Sharp", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
     { name: "Christine Baker", email: "chrstnpetri@yahoo.com" },
     { name: "Christine Young", email: "chrstnpetri@yahoo.com" },
     { name: "Claire Steffes", email: "Claireniehaus@yahoo.com" },
