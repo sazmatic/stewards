@@ -163,10 +163,9 @@ function handleCampusChange() {
 repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
+      ${rep.shift ? `<div class="shift-badge">${rep.shift}</div>` : ''}
       <div class="rep-name">
         <strong>${rep.name}</strong>
-        ${rep.shift === 'Day' ? `<span class="shift-icon" title="Day Shift">☀️</span>` : ''}
-        ${rep.shift === 'Night' ? `<span class="shift-icon" title="Night Shift">🌙</span>` : ''}
       </div>
       ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
       <div class="rep-buttons">
