@@ -243,7 +243,7 @@ select option {
 }
 .unit-badge {
   position: absolute;
-  top: 12px;
+  top: -10px;                /* pull it slightly above the card content */
   left: 12px;
   background-color: #e8f0fe;
   color: #003366;
@@ -253,8 +253,8 @@ select option {
   font-weight: 500;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   white-space: nowrap;
+  z-index: 1;                /* ensure it's above background */
 }
-
 /* ========================= */
 /*        IMAGE SECTION      */
 /* ========================= */
