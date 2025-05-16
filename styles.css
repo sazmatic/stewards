@@ -66,7 +66,6 @@ body {
   white-space: nowrap;       /* ✅ keeps it on one line */
   overflow-x: auto;          /* ✅ lets it scroll if needed */
 }
-}
 
 /* Subtitle below */
 .hero-subtitle {
