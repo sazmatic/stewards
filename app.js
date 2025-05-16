@@ -1,6 +1,27 @@
 document.getElementById('campus-select').addEventListener('change', handleCampusChange);
 
 const representatives = {
+    "Dearborn": [
+    { name: "Alan Matzelt", email: "alcmatzelt1@aol.com" },
+    { name: "Alyse Derry", phone: "517-292-9183", email: "alysela.badie@gmail.com" },
+    { name: "Alyson Zajac", email: "alysomething@msn.com" },
+    { name: "Amra Kaliman", email: "amrakal5@sbcglobal.net" },
+    { name: "Anissa Hackett", phone: "313-522-6696", email: "anissahackett@gmail.com" },
+    { name: "Anna Capling", email: "annajosuma@ymail.com" },
+    { name: "Becky Smola", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com" },
+    { name: "Bretton Buccilli", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
+    { name: "Erika Montgomery", email: "montgomery113@ymail.com" },
+    { name: "Herb Lorentz", email: "jrsice2@gmail.com" },
+    { name: "Jodie Osseili", email: "osseilij@yahoo.com" },
+    { name: "Linda Powell", email: "landjp90@hotmail.com" },
+    { name: "Makayla Burke", phone: "734-626-8701", email: "burkexoh@gmail.com" },
+    { name: "Marissa Kobmann", email: "mkobmann1@yahoo.com" },
+    { name: "Michelle Barnett", phone: "850-728-8746", email: "michelle.p.barnett@gmail.com" },
+    { name: "Michella Vincent", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
+    { name: "Renee Mowery", email: "remo1327@yahoo.com" },
+    { name: "Sarah Brock", phone: "313-402-7109", email: "sarah.brock.612@gmail.com" },
+    { name: "Sarah Phillips", email: "sarahphillips.m@gmail.com" }
+  ],
   "Royal Oak": [
     { name: "Carol Sharp", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
     { name: "Christine Baker", email: "chrstnpetri@yahoo.com" },
@@ -61,27 +82,7 @@ const representatives = {
     { name: "Suzi Carbone", phone: "586-944-4520", email: "spcarbone3@gmail.com" },
     { name: "Vincent Tucker", email: "vincent.tucker@hotmail.com" },
     ],
-  "Dearborn": [
-    { name: "Alan Matzelt", email: "alcmatzelt1@aol.com" },
-    { name: "Alyse Derry", phone: "517-292-9183", email: "alysela.badie@gmail.com" },
-    { name: "Alyson Zajac", email: "alysomething@msn.com" },
-    { name: "Amra Kaliman", email: "amrakal5@sbcglobal.net" },
-    { name: "Anissa Hackett", phone: "313-522-6696", email: "anissahackett@gmail.com" },
-    { name: "Anna Capling", email: "annajosuma@ymail.com" },
-    { name: "Becky Smola", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com" },
-    { name: "Bretton Buccilli", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
-    { name: "Erika Montgomery", email: "montgomery113@ymail.com" },
-    { name: "Herb Lorentz", email: "jrsice2@gmail.com" },
-    { name: "Jodie Osseili", email: "osseilij@yahoo.com" },
-    { name: "Linda Powell", email: "landjp90@hotmail.com" },
-    { name: "Makayla Burke", phone: "734-626-8701", email: "burkexoh@gmail.com" },
-    { name: "Marissa Kobmann", email: "mkobmann1@yahoo.com" },
-    { name: "Michelle Barnett", phone: "850-728-8746", email: "michelle.p.barnett@gmail.com" },
-    { name: "Michella Vincent", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
-    { name: "Renee Mowery", email: "remo1327@yahoo.com" },
-    { name: "Sarah Brock", phone: "313-402-7109", email: "sarah.brock.612@gmail.com" },
-    { name: "Sarah Phillips", email: "sarahphillips.m@gmail.com" }
-  ],
+
   "Farmington Hills": [
     { name: "Amy Blunden", email: "anblunden@gmail.com" },
     { name: "Anita Dixon", email: "anitadixon6589@yahoo.com" },
