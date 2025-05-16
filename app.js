@@ -64,7 +64,7 @@ const representatives = {
     ],
   "Dearborn": [
     { name: "Alan Matzelt", email: "alcmatzelt1@aol.com" },
-    { name: "Alyse Derry", email: "alysela.badie@gmail.com" },
+    { name: "Alyse Derry", phone: "517-292-9183", email: "alysela.badie@gmail.com" },
     { name: "Alyson Zajac", email: "alysomething@msn.com" },
     { name: "Amra Kaliman", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", phone: "313-522-6696", email: "anissahackett@gmail.com" },
