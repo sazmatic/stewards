@@ -46,7 +46,7 @@ const representatives = {
     { name: "Rachel Szadyr", phone: "248-408-8946", email: "szadyrr@gmail.com" },
     { name: "Sarah Johnson", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
     { name: "Sargon Mikho", phone: "586-567-1995", email: "s.mikho@icloud.com" },
-    { name: "Sharon McCombs", email: "Smrn714@gmail.com" },
+    { name: "Sharon McCombs", phone: "313-530-9195", email: "Smrn714@gmail.com" },
     { name: "Stephanie Leneway", email: "Stephann3@mac.com" },
     { name: "Steven Darvill", title: "Nurse Practitioner", phone: "248-709-6473", email: "stevendarvill88@gmail.com" },
     { name: "William Lootens", email: "billyonair@aol.com" },
