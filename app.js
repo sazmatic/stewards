@@ -103,7 +103,7 @@ const representatives = {
   ],
   "Grosse Pointe": [
     { name: "Bill Braasch", email: "williambraasch@hotmail.com" },
-    { name: "Giulia Heiden", email: "giulia.calimazzo@gmail.com" },
+    { name: "Giulia Heiden", phone: "586-443-3566", email: "giulia.calimazzo@gmail.com" },
     { name: "Holly Kowal", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
     { name: "Samantha Parisi", title: "<em>Lenox Campus</em>", email: "samantharn92@gmail.com" },
