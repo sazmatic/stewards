@@ -31,7 +31,7 @@ const representatives = {
     { name: "Emily Bogart", title: "Nurse Practitioner", email: "embogart@gmail.com" },
     { name: "Emmy Castillon", email: "Emmylynncoronel@gmail.com" },
     { name: "Jacquelyn Whitmore", email: "Jczarn01@outlook.com" },
-    { name: "Jill Judkins", email: "timjudkins@comcast.net" },
+    { name: "Jill Judkins", phone: "248-224-1494", email: "timjudkins@comcast.net" },
     { name: "Judie Laverdiere", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Hicks", phone: "248-840-0325", email: "Juliemhicks123@yahoo.com" },
