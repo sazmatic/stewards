@@ -31,7 +31,7 @@ const representatives = {
     { name: "Zak Shugart", email: "Zak.shugart@gmail.com" },
   ],
   "Troy": [
-    { name: "Amy Held", email: "ymaheld@gmail.com" },
+    { name: "Amy Held", phone: "248-703-2246", email: "ymaheld@gmail.com" },
     { name: "Amy Holcomb", email: "amyholcomb1015@gmail.com" },
     { name: "Angela Oltean", email: "angela.emory44@yahoo.com" },
     { name: "Ashley Kraft", email: "ashbroski@gmail.com" },
