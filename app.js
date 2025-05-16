@@ -35,7 +35,7 @@ const representatives = {
     { name: "Amy Holcomb", email: "amyholcomb1015@gmail.com" },
     { name: "Angela Oltean", email: "angela.emory44@yahoo.com" },
     { name: "Ashley Kraft", email: "ashbroski@gmail.com" },
-    { name: "Barb Douglas", email: "bdouglas78@icloud.com" },
+    { name: "Barb Douglas", phone: "248-565-6594", email: "bdouglas78@icloud.com" },
     { name: "Brenda Tesnar", email: "Beetesnar71@gmail.com" },
     { name: "Christy Finn", email: "cfinn1980@sbcglobal.net" },
     { name: "Devon Timmerman", email: "timmerman.nursing@gmail.com" },
