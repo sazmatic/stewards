@@ -13,7 +13,7 @@ const representatives = {
     { name: "Judie Laverdiere", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Hicks", email: "Juliemhicks123@yahoo.com" },
-    { name: "Katelyn Savage", email: "Krsavage0@gmail.com" },
+    { name: "Katelyn Savage", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
     { name: "Linda Plunkett", email: "Busyrnc28@gmail.com" },
     { name: "Lindsey Dye", email: "Linds9867@yahoo.com" },
     { name: "Lori Greenlee", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
