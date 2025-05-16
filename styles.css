@@ -160,8 +160,8 @@ select option {
 }
 
 .rep-card {
-  margin: 20px auto;
-  padding: 20px;
+  margin: 30px auto 20px;    /* add top margin for badge space */
+  padding: 25px 20px 20px;
   border: 1px solid var(--border-color, #ddd);
   border-radius: 10px;
   background: var(--card-background, #fff);
