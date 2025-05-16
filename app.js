@@ -35,6 +35,7 @@ const representatives = {
     { name: "Judie Laverdiere", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Hicks", phone: "248-840-0325", email: "Juliemhicks123@yahoo.com" },
+    { name: "Kalisha Young", shift: "Night", phone: "586-747-0107", email: "kyoung102989@gmail.com" },
     { name: "Katelyn Savage", shift: "Day", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
     { name: "Linda Plunkett", shift: "Day", email: "Busyrnc28@gmail.com" },
     { name: "Lindsey Dye", shift: "Day", email: "Linds9867@yahoo.com" },
