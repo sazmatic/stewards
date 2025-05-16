@@ -243,17 +243,25 @@ select option {
 }
 .unit-badge {
   position: absolute;
-  top: -10px;                /* pull it slightly above the card content */
+  top: -10px;
   left: 12px;
-  background-color: #e8f0fe;
-  color: #003366;
   font-size: 12px;
   padding: 4px 10px;
   border-radius: 20px;
   font-weight: 500;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   white-space: nowrap;
-  z-index: 1;                /* ensure it's above background */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+
+.unit-badge.rn {
+  background-color: #e8f0fe;
+  color: #003366;
+}
+
+.unit-badge.np {
+  background-color: #fff4e5;
+  color: #8a4b00;
 }
 /* ========================= */
 /*        IMAGE SECTION      */
