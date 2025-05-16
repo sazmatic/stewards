@@ -110,7 +110,7 @@ const representatives = {
     { name: "Carol Goscinski", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", email: "daniellepiechota@gmail.com" },
     { name: "Heather Mauree Feathers", email: "hmandalis@yahoo.com" },
-    { name: "Jason Frantangelo", email: "tangelo411@gmail.com" },
+    { name: "Jason Frantangelo", phone: "734-624-8172", email: "tangelo411@gmail.com" },
     { name: "Lisa Rich", email: "l.rich3@yahoo.com" },
     { name: "Mandy O’Rourke", email: "morourke516@yahoo.com" },
     { name: "Natalie Lunsford", phone: "734-250-4073", email: "natrn91@wowway.com" },
