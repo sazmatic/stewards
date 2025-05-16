@@ -222,19 +222,24 @@ select option {
   position: absolute;
   top: 12px;
   right: 12px;
-  background-color: #f0f4f9;
+  background-color: #f5f7fa;
   color: #003366;
-  font-size: 18px;
-  padding: 6px;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  line-height: 1;
-  width: 32px;
-  height: 32px;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;
+  gap: 4px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.shift-badge .icon {
+  font-size: 14px;
+}
+
+.shift-badge .label {
+  font-size: 13px;
 }
 
 /* ========================= */
