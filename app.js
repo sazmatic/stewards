@@ -18,7 +18,7 @@ const representatives = {
     { name: "Lindsey Dye", email: "Linds9867@yahoo.com" },
     { name: "Lori Greenlee", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
     { name: "Michael Brown", email: "Michael.browning.rn@hotmail.com" },
-    { name: "Michelle Dewilde", email: "michelledewilde@yahoo.com" },
+    { name: "Michelle Dewilde", phone: "810-938-3138", email: "michelledewilde@yahoo.com" },
     { name: "Natalie Richmond", phone: "248-873-7373", email: "littlemissrichmond@gmail.com" },
     { name: "Rachael Patton", phone: "586-817-1203", email: "Rachael.patton@icloud.com" },
     { name: "Rachel Szadyr", phone: "248-408-8946", email: "szadyrr@gmail.com" },
