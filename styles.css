@@ -241,6 +241,19 @@ select option {
 .shift-badge .label {
   font-size: 13px;
 }
+.unit-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: #e8f0fe;
+  color: #003366;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+}
 
 /* ========================= */
 /*        IMAGE SECTION      */
