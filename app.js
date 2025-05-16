@@ -51,7 +51,7 @@ const representatives = {
     { name: "Stephanie Leneway", shift: "Day", phone: "248-854-4527", email: "Stephann3@mac.com" },
     { name: "Steven Darvill", shift: "Day", title: "Nurse Practitioner", phone: "248-709-6473", email: "stevendarvill88@gmail.com" },
     { name: "William Lootens", shift: "Night", email: "billyonair@aol.com" },
-    { name: "Yvonne Marchesseault", email: "Fifimarch@yahoo.com" },
+    { name: "Yvonne Marchesseault", shift: "Day", email: "Fifimarch@yahoo.com" },
     { name: "Zak Shugart", shift: "Day", email: "Zak.shugart@gmail.com" },
   ],
   "Troy": [
