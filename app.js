@@ -88,7 +88,7 @@ const representatives = {
     { name: "Bianca Sword", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
     { name: "Chau Tran Yang", email: "cmeyang@me.com" },
     { name: "Debbie Miracle", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
-    { name: "Erin Gossett", email: "Nurseerin2012@yahoo.com" },
+    { name: "Erin Gossett", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
     { name: "Hanna Byrnes", email: "hannambyrnes@gmail.com" },
     { name: "Kate Oakford", email: "Koakford@gmail.com" },
     { name: "Kelly Kinney", email: "Kellybelle79@gmail.com" },
