@@ -219,18 +219,20 @@ select option {
 }
 
 .shift-badge {
-  background-color: #f1f1f1;
-  color: #333;
-  font-size: 12px;
+  display: inline-block;
+  background-color: #f0f4f9;
+  color: #003366;
   font-weight: 600;
+  font-size: 14px;
   padding: 4px 10px;
   border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
   margin-left: auto;
-  margin-top: -24px;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-right: 0;
+  align-self: flex-end;
+  text-align: right;
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
 }
 
 /* ========================= */
