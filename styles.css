@@ -271,6 +271,9 @@ select option {
 }
 
 .unit-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
   background-color: #e9f0fb;
   color: #003366;
   font-size: 12px;
@@ -279,6 +282,7 @@ select option {
   font-weight: 600;
   display: inline-flex;
   align-items: center;
+  z-index: 2;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
@@ -292,15 +296,18 @@ select option {
   color: #003366;
 }
 
-.rep-site {
+.site-badge {
+  position: absolute;
+  top: 48px; /* moves below RN */
+  left: 12px;
   background-color: #f1f1f1;
   color: #555;
   font-size: 11px;
-  padding: 3px 8px;
-  border-radius: 12px;
+  padding: 4px 9px;
+  border-radius: 14px;
   font-weight: 500;
-  display: inline-block;
-  position: relative;
+  z-index: 2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 /* SHIFT ICON */
