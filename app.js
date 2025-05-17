@@ -93,7 +93,7 @@ const representatives = {
     { name: "Bianca Sword", unit: "RN", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
     { name: "Chau Tran Yang", unit: "RN", phone: "248-860-2434", email: "cmeyang@me.com" },
     { name: "Debbie Miracle", unit: "RN", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
-    { name: "Erin Gossett", unit: "RN", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
+    { name: "Erin Gossett", unit: "RN", site: "Livonia", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
     { name: "Hanna Byrnes", unit: "RN", email: "hannambyrnes@gmail.com" },
     { name: "Kate Oakford", unit: "RN", email: "Koakford@gmail.com" },
     { name: "Kelly Kinney", unit: "RN", email: "Kellybelle79@gmail.com" },
