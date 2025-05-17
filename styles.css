@@ -193,18 +193,22 @@ select option {
 
 .rep-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 14px;
-  padding: 0 10px;
+  gap: 8px;
+  flex-wrap: nowrap;     /* prevents wrapping */
+  width: 100%;
+  margin-top: 12px;
+  padding: 0 8px;
+  box-sizing: border-box;
 }
-.phone-button,
-.text-button,
-.email-button {
-  min-width: 80px;
+
+.rep-buttons a {
+  flex: 1;                /* evenly distribute width */
+  min-width: 0;           /* avoid stretching too far */
   text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
 }
 
 .phone-button,
