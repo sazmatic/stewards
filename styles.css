@@ -261,7 +261,7 @@ select option {
 /* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
   position: absolute;
-  top: 12px;
+  top: 8px;
   left: 12px;
   display: flex;
   flex-direction: column;
