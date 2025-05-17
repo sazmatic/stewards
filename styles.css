@@ -488,6 +488,16 @@ footer {
   background: none;
   box-shadow: none;
 }
+
+.qa-section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
 @media (max-width: 480px) {
   .qa-section h2 {
     font-size: 18px;
