@@ -88,19 +88,19 @@ const representatives = {
     ],
 
   "Farmington Hills": [
-    { name: "Amy Blunden", email: "anblunden@gmail.com" },
-    { name: "Anita Dixon", email: "anitadixon6589@yahoo.com" },
-    { name: "Bianca Sword", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
-    { name: "Chau Tran Yang", phone: "248-860-2434", email: "cmeyang@me.com" },
-    { name: "Debbie Miracle", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
-    { name: "Erin Gossett", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
-    { name: "Hanna Byrnes", email: "hannambyrnes@gmail.com" },
-    { name: "Kate Oakford", email: "Koakford@gmail.com" },
-    { name: "Kelly Kinney", email: "Kellybelle79@gmail.com" },
-    { name: "Lisa Alvord", email: "Mommy42265@yahoo.com" },
-    { name: "Liz Sergison", email: "lizsergison@yahoo.com" },
-    { name: "Misty Croteau", phone: "734-658-0815", email: "mcroteau84@gmail.com" },
-    { name: "Sarah Barker", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
+    { name: "Amy Blunden", unit: "RN", email: "anblunden@gmail.com" },
+    { name: "Anita Dixon", unit: "RN", email: "anitadixon6589@yahoo.com" },
+    { name: "Bianca Sword", unit: "RN", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
+    { name: "Chau Tran Yang", unit: "RN", phone: "248-860-2434", email: "cmeyang@me.com" },
+    { name: "Debbie Miracle", unit: "RN", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
+    { name: "Erin Gossett", unit: "RN", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
+    { name: "Hanna Byrnes", unit: "RN", email: "hannambyrnes@gmail.com" },
+    { name: "Kate Oakford", unit: "RN", email: "Koakford@gmail.com" },
+    { name: "Kelly Kinney", unit: "RN", email: "Kellybelle79@gmail.com" },
+    { name: "Lisa Alvord", unit: "RN", email: "Mommy42265@yahoo.com" },
+    { name: "Liz Sergison", unit: "RN", email: "lizsergison@yahoo.com" },
+    { name: "Misty Croteau", unit: "RN", phone: "734-658-0815", email: "mcroteau84@gmail.com" },
+    { name: "Sarah Barker", unit: "RN", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
   ],
   "Grosse Pointe": [
     { name: "Bill Braasch", email: "williambraasch@hotmail.com" },
