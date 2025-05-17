@@ -475,8 +475,19 @@ footer {
   margin: 0 auto;
   text-align: left;
 }
-.qa-section h2 {
+  .qa-section h2 {
   font-size: 26px;
+  color: var(--highlight-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #f0f4f9;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: inline-block;
 }
 @media (max-width: 480px) {
   .qa-section h2 {
