@@ -165,10 +165,13 @@ repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
       <div class="badge-wrapper">
-        ${rep.unit ? `
-          <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'np' : 'rn'}">
-            <div class="unit-text">${rep.unit}</div>
-          </div>` : ''
+        ${ (rep.unit || rep.site) ? `
+  <div class="badge-wrapper">
+    <div class="unit-site-badge ${rep.unit === 'NP' ? 'np' : 'rn'}">
+      <div class="unit-text">${rep.unit}</div>
+      ${rep.site ? `<div class="site-text">${rep.site}</div>` : ''}
+    </div>
+  </div>` : '' }
         }
         ${rep.site ? `<div class="site-badge">${rep.site}</div>` : ''}
       </div>
