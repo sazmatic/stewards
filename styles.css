@@ -265,7 +265,7 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px; /* adds space between RN/NP and site */
+  gap: 4px; /* Slightly reduced for tighter layout */
   z-index: 2;
 }
 
@@ -299,6 +299,10 @@ select option {
   border-radius: 14px;
   font-weight: 500;
   display: inline-block;
+  margin-top: 4px;
+  margin-left: 2px;
+  z-index: 1;
+  position: relative;
 }
 
 /* SHIFT ICON */
