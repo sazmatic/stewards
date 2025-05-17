@@ -475,24 +475,12 @@ footer {
   margin: 0 auto;
   text-align: left;
 }
-
-.qa-section h2 {
-  font-size: 26px;
-  color: var(--highlight-color);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  text-align: center;
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .qa-section h2 {
   font-size: 26px;
 }
 @media (max-width: 480px) {
   .qa-section h2 {
-    font-size: 18px;
+    font-size: 20px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
