@@ -483,7 +483,7 @@ footer {
   letter-spacing: 1px;
   margin-bottom: 30px;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
 }
