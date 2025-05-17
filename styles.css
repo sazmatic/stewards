@@ -491,7 +491,7 @@ footer {
 }
 @media (max-width: 480px) {
   .qa-section h2 {
-    font-size: 20px;
+    font-size: 19px;
     padding: 6px 12px;
     letter-spacing: 0.5px;
   }
