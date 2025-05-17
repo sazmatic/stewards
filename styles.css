@@ -260,13 +260,13 @@ select option {
 
 /* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
+  position: absolute;
+  top: 12px;
+  left: 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px;
-  margin-bottom: 4px; /* tighter space between badges and name */
-  margin-top: 0px;    /* pulls the badge wrapper up slightly */
-  align-self: flex-start;
+  z-index: 2;
 }
 
 .unit-badge {
