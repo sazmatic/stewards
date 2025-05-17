@@ -265,28 +265,21 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px;
+  gap: 6px;
   z-index: 2;
-}
 }
 
 .unit-badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
   background-color: #e9f0fb;
   color: #003366;
   font-size: 13px;
   padding: 6px 14px;
-  border-radius: 999px; /* makes it fully rounded */
+  border-radius: 999px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-  z-index: 2;
-  line-height: 1;
-  letter-spacing: 0.5px;
 }
 
 .unit-np {
@@ -299,18 +292,14 @@ select option {
   color: #003366;
 }
 
-.site-badge {
-  position: absolute;
-  top: 48px; /* moves below RN */
-  left: 12px;
+.rep-site {
   background-color: #f1f1f1;
   color: #555;
   font-size: 11px;
-  padding: 4px 9px;
-  border-radius: 14px;
+  padding: 4px 10px;
+  border-radius: 999px;
   font-weight: 500;
-  z-index: 2;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  display: inline-block;
 }
 
 /* SHIFT ICON */
