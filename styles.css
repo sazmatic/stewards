@@ -369,6 +369,8 @@ footer {
 @media (max-width: 768px) {
   .logo {
     max-width: 200px;
+  .qa-section h2 {
+    font-size: 18px;
   }
 
   .hero-title {
