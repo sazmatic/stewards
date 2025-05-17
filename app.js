@@ -18,7 +18,7 @@ const representatives = {
     { name: "Marissa Kobmann", unit: "RN", email: "mkobmann1@yahoo.com" },
     { name: "Michelle Barnett", unit: "RN", phone: "850-728-8746", email: "michelle.p.barnett@gmail.com" },
     { name: "Michella Vincent", unit: "RN", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
-    { name: "Renee Mowery", unit: "RN", email: "remo1327@yahoo.com" },
+    { name: "Renee Mowery", unit: "RN", phone: "313-415-6216", email: "remo1327@yahoo.com" },
     { name: "Sarah Brock", unit: "RN", phone: "313-402-7109", email: "sarah.brock.612@gmail.com" },
     { name: "Sarah Phillips", unit: "RN", email: "sarahphillips.m@gmail.com" }
   ],
