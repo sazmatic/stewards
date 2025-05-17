@@ -162,7 +162,7 @@ select option {
 
 .rep-card {
   margin: 16px auto 20px;
-  padding: 25px 20px 30px; /* increased bottom padding to prevent overlap */
+  padding: 18px 20px 30px; /* increased bottom padding to prevent overlap */
   border: 1px solid var(--border-color, #ddd);
   border-radius: 10px;
   background: var(--card-background, #fff);
