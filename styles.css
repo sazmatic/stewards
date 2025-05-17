@@ -47,7 +47,8 @@ body {
 
 /* Bigger logo */
 .logo {
-  max-width: 250px;
+  max-width: 280px;
+  width: 100%
   height: auto;
 }
 
