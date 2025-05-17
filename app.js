@@ -164,19 +164,17 @@ function handleCampusChange() {
 repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
-      <div class="badge-wrapper">
-        ${ (rep.unit || rep.site) ? `
-  <div class="badge-wrapper">
-    <div class="unit-site-badge ${rep.unit === 'NP' ? 'np' : 'rn'}">
-      <div class="unit-text">${rep.unit}</div>
-      ${rep.site ? `<div class="site-text">${rep.site}</div>` : ''}
-    </div>
-  </div>` : '' }
-        }
-        ${rep.site ? `<div class="site-badge">${rep.site}</div>` : ''}
-      </div>
+      ${(rep.unit || rep.site) ? `
+        <div class="badge-wrapper">
+          <div class="unit-site-badge ${rep.unit === 'NP' ? 'np' : 'rn'}">
+            ${rep.unit ? `<div class="unit-text">${rep.unit}</div>` : ''}
+            ${rep.site ? `<div class="site-text">${rep.site}</div>` : ''}
+          </div>
+        </div>` : ''}
+        
       ${rep.shift === 'Day' ? `<div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>` : ''}
       ${rep.shift === 'Night' ? `<div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>` : ''}
+
       <div class="rep-name">
         <strong>${rep.name}</strong>
       </div>
@@ -189,8 +187,7 @@ repName.innerHTML = representatives[campus]
         ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
       </div>
     </div>
-  `)
-  .join('');
+  `).join('');
   } else {
     campusName.style.display = 'none';
     repInfo.style.display = 'none';
