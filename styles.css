@@ -276,14 +276,17 @@ select option {
   left: 12px;
   background-color: #e9f0fb;
   color: #003366;
-  font-size: 12px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 999px; /* makes it fully rounded */
+  font-weight: 700;
   display: inline-flex;
   align-items: center;
-  z-index: 2;
+  justify-content: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  line-height: 1;
+  letter-spacing: 0.5px;
 }
 
 .unit-np {
