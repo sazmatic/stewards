@@ -103,7 +103,7 @@ const representatives = {
     { name: "Sarah Barker", unit: "RN", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
   ],
   "Grosse Pointe": [
-    { name: "Ashley Roberts", unit: "RN", site: "Lenox", phone: "248-416-2804", email: "aroberts317@gmail.com"
+    { name: "Ashley Roberts", unit: "RN", site: "Lenox", phone: "248-416-2804", email: "aroberts317@gmail.com" },
     { name: "Bill Braasch", unit: "RN", email: "williambraasch@hotmail.com" },
     { name: "Giulia Heiden", unit: "RN", phone: "586-443-3566", email: "giulia.calimazzo@gmail.com" },
     { name: "Holly Kowal", unit: "RN", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
