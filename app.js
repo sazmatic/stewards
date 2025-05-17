@@ -165,11 +165,8 @@ repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
       ${rep.unit ? `
-        <div class="unit-badge-wrapper">
-          <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
-            ${rep.unit.toUpperCase()}
-          </div>
-          ${rep.site ? `<div class="site-badge">${rep.site}</div>` : ''}
+        <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
+          ${rep.unit.toUpperCase()}
         </div>
       ` : ''}
 
@@ -180,6 +177,7 @@ repName.innerHTML = representatives[campus]
         <strong>${rep.name}</strong>
       </div>
       ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
+
       <div class="rep-buttons">
         ${rep.phone ? `
           <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
@@ -187,6 +185,8 @@ repName.innerHTML = representatives[campus]
         ` : ''}
         ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
       </div>
+
+      ${rep.site ? `<div class="site-badge">${rep.site}</div>` : ''}
     </div>
   `).join('');
   } else {
