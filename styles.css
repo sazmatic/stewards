@@ -265,7 +265,7 @@ select option {
   align-items: flex-start;
   gap: 4px;
   margin-bottom: 4px; /* tighter space between badges and name */
-  margin-top: -6px;    /* pulls the badge wrapper up slightly */
+  margin-top: 0px;    /* pulls the badge wrapper up slightly */
   align-self: flex-start;
 }
 
