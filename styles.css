@@ -299,6 +299,10 @@ select option {
   border-radius: 14px;
   font-weight: 500;
   display: inline-block;
+  margin-top: 4px;
+  margin-left: 2px;
+  z-index: 1;
+  position: relative;
 }
 
 /* SHIFT ICON */
