@@ -487,6 +487,17 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.qa-section h2 {
+  font-size: 26px;
+}
+@media (max-width: 480px) {
+  .qa-section h2 {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 
 .qa-item {
   margin-bottom: 25px;
