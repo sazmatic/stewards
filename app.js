@@ -108,7 +108,7 @@ const representatives = {
     { name: "Holly Kowal", unit: "RN", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", unit: "RN", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
     { name: "Samantha Parisi", unit: "RN", phone: "586-322-4085", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", unit: "RN", email: "sbrooks827@yahoo.com" }
+    { name: "Stephanie Brooks", unit: "RN", site: "Lenox", phone: "586-747-3995", email: "sbrooks827@yahoo.com" }
   ],
   "Wayne": [
     { name: "Amanda Layne", unit: "RN", email: "alayne824@gmail.com" },
