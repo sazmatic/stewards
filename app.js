@@ -164,17 +164,14 @@ function handleCampusChange() {
 repName.innerHTML = representatives[campus]
   .map(rep => `
     <div class="rep-card">
-      ${(rep.unit || rep.site) ? `
-        <div class="badge-wrapper">
-          <div class="unit-site-badge ${rep.unit === 'NP' ? 'np' : 'rn'}">
-            ${rep.unit ? `<div class="unit-text">${rep.unit}</div>` : ''}
-            ${rep.site ? `<div class="site-text">${rep.site}</div>` : ''}
-          </div>
-        </div>` : ''}
-        
+      ${rep.unit ? `
+        <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
+          ${rep.unit.toUpperCase()}
+        </div>` : ''
+      }
       ${rep.shift === 'Day' ? `<div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>` : ''}
       ${rep.shift === 'Night' ? `<div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>` : ''}
-
+      
       <div class="rep-name">
         <strong>${rep.name}</strong>
       </div>
