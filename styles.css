@@ -296,13 +296,10 @@ select option {
   background-color: #f1f1f1;
   color: #555;
   font-size: 11px;
-  padding: 4px 9px;
-  border-radius: 14px;
+  padding: 3px 8px;
+  border-radius: 12px;
   font-weight: 500;
   display: inline-block;
-  margin-top: 4px;
-  margin-left: 2px;
-  z-index: 1;
   position: relative;
 }
 
