@@ -160,7 +160,7 @@ select option {
 }
 
 .rep-card {
-  margin: 30px auto 20px;    /* add top margin for badge space */
+  margin: 30px auto 20px;
   padding: 25px 20px 20px;
   border: 1px solid var(--border-color, #ddd);
   border-radius: 10px;
@@ -170,9 +170,8 @@ select option {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   position: relative;
-}
 }
 
 .rep-name {
@@ -195,8 +194,8 @@ select option {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 8px;
-  flex-wrap: nowrap;     /* prevents wrapping */
   width: 100%;
   margin-top: 12px;
   padding: 0 8px;
@@ -204,12 +203,13 @@ select option {
 }
 
 .rep-buttons a {
-  flex: 1;                /* evenly distribute width */
-  min-width: 0;           /* avoid stretching too far */
+  flex: 1;
+  min-width: 0;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
 }
+
 .rep-buttons:has(.email-button):not(:has(.phone-button, .text-button)) {
   justify-content: center;
 }
@@ -219,21 +219,45 @@ select option {
   min-width: 100px;
 }
 
+/* BUTTONS */
 .phone-button,
-.email-button {
+.email-button,
+.text-button {
   padding: 8px 14px;
   font-size: 14px;
   border: none;
   border-radius: 6px;
   text-decoration: none;
   color: #fff;
-  background-color: #007BFF;
+  font-weight: 600;
   transition: background-color 0.2s ease;
 }
 
-.phone-button:hover,
+.phone-button {
+  background-color: #28a745;
+}
+
+.phone-button:hover {
+  background-color: #218838;
+}
+
+.text-button {
+  background-color: #17a2b8;
+}
+
+.text-button:hover {
+  background-color: #117a8b;
+}
+
+.email-button {
+  background-color: #007bff;
+}
+
 .email-button:hover {
   background-color: #0056b3;
+}
+
+/* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
   position: absolute;
   top: 12px;
@@ -277,6 +301,7 @@ select option {
   display: inline-block;
 }
 
+/* SHIFT ICON */
 .shift-badge {
   position: absolute;
   top: 12px;
@@ -295,7 +320,7 @@ select option {
 
 .shift-badge .icon {
   font-size: 14px;
-}
+}}
 /* ========================= */
 /*        IMAGE SECTION      */
 /* ========================= */
