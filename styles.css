@@ -483,19 +483,19 @@ footer {
   letter-spacing: 1px;
   text-align: center;
   margin: 40px 0 20px;
-  border: none;
-  padding: 0;
-  background: none;
-  box-shadow: none;
+  position: relative;
+  display: inline-block;
 }
 
 .qa-section h2::after {
   content: "";
-  display: block;
-  width: 60px;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
   height: 3px;
   background-color: var(--accent-color);
-  margin: 8px auto 0;
   border-radius: 2px;
 }
 @media (max-width: 480px) {
