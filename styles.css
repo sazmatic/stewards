@@ -266,7 +266,7 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px; /* adds space between RN/NP and site */
+  gap: 4px; /* adds space between RN/NP and site */
   z-index: 2;
 }
 
@@ -295,11 +295,12 @@ select option {
 .rep-site {
   background-color: #f1f1f1;
   color: #555;
-  font-size: 11px;
-  padding: 4px 9px;
-  border-radius: 14px;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 12px;
   font-weight: 500;
   display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 /* SHIFT ICON */
