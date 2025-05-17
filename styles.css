@@ -217,49 +217,65 @@ select option {
 .email-button:hover {
   background-color: #0056b3;
 }
-.badge-wrapper {
+.shift-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #f5f7fa;
+  color: #003366;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.shift-badge .icon {
+  font-size: 14px;
+}
+
+.shift-badge .label {
+  font-size: 13px;
+}
+.unit-badge {
   position: absolute;
   top: 12px;
   left: 12px;
-  z-index: 1;
-}
-
-.unit-site-badge {
   background-color: #e9f0fb;
   color: #003366;
   font-size: 13px;
-  padding: 6px 10px;
-  border-radius: 14px;
+  padding: 6px 12px;
+  border-radius: 20px;
   font-weight: 600;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 56px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-  line-height: 1.2;
 }
 
-.unit-site-badge.np {
+.unit-np {
   background-color: #e6fff1;
   color: #006644;
 }
 
-.unit-site-badge.rn {
+.unit-rn {
   background-color: #e9f0fb;
   color: #003366;
 }
 
-.unit-site-badge .unit-text {
-  font-size: 12px;
+.unit-text {
+  font-size: 13px;
   font-weight: 700;
 }
 
-.unit-site-badge .site-text {
-  font-size: 10px;
+.unit-site {
+  font-size: 11px;
   font-weight: 500;
   margin-top: 2px;
   color: #666;
-}
 }
 /* ========================= */
 /*        IMAGE SECTION      */
