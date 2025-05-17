@@ -200,6 +200,12 @@ select option {
   margin-top: 14px;
   padding: 0 10px;
 }
+.phone-button,
+.text-button,
+.email-button {
+  min-width: 80px;
+  text-align: center;
+}
 
 .phone-button,
 .email-button {
