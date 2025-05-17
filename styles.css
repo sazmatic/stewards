@@ -210,6 +210,14 @@ select option {
   padding: 10px 0;
   font-size: 14px;
 }
+.rep-buttons:has(.email-button):not(:has(.phone-button, .text-button)) {
+  justify-content: center;
+}
+
+.rep-buttons:has(.email-button):not(:has(.phone-button, .text-button)) .email-button {
+  width: auto;
+  min-width: 100px;
+}
 
 .phone-button,
 .email-button {
