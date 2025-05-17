@@ -260,14 +260,12 @@ select option {
 
 /* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
-  position: absolute;
-  top: 12px;
-  left: 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px; /* adds space between RN/NP and site */
-  z-index: 2;
+  gap: 4px;
+  margin-bottom: 10px;
+  align-self: flex-start;
 }
 
 .unit-badge {
