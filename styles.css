@@ -1,14 +1,17 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #003366;
+  --highlight-color: #003366; /* Navy Blue */
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
   --text-muted: #666;
 }
 
-/* GLOBAL STYLES */
+/* ========================= */
+/*        GLOBAL STYLES      */
+/* ========================= */
+
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--background-color);
@@ -18,7 +21,10 @@ body {
   text-align: center;
 }
 
-/* HERO HEADER */
+/* ========================= */
+/*         HERO HEADER       */
+/* ========================= */
+
 .hero {
   background: #fff;
   padding: 30px 20px 25px;
@@ -29,6 +35,7 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+/* Horizontal layout for logo + title */
 .hero-row {
   display: flex;
   align-items: center;
@@ -37,6 +44,7 @@ body {
   flex-wrap: wrap;
 }
 
+/* Bigger logo */
 .logo {
   max-width: 250px;
   height: auto;
@@ -45,7 +53,7 @@ body {
 .hero-title {
   font-size: 28px;
   font-weight: 700;
-  color: var(--highlight-color);
+  color: var(--highlight-color); /* Navy Blue */
   text-transform: uppercase;
   letter-spacing: 1.2px;
   margin: 0;
@@ -55,10 +63,11 @@ body {
   background-color: #f0f4f9;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
-  white-space: nowrap;
-  overflow-x: auto;
+  white-space: nowrap;       /* ✅ keeps it on one line */
+  overflow-x: auto;          /* ✅ lets it scroll if needed */
 }
 
+/* Subtitle below */
 .hero-subtitle {
   font-size: 18px;
   color: var(--text-muted);
@@ -72,7 +81,10 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* MAIN */
+/* ========================= */
+/*           MAIN            */
+/* ========================= */
+
 main {
   display: flex;
   flex-direction: column;
@@ -89,7 +101,7 @@ main h2 {
   margin-bottom: 20px;
 }
 
-/* DROPDOWN */
+/* Dropdown */
 .dropdown-wrapper {
   width: 100%;
   max-width: 400px;
@@ -128,7 +140,10 @@ select option {
   color: #333;
 }
 
-/* REP SECTION */
+/* ========================= */
+/*        REP SECTION        */
+/* ========================= */
+
 #campus-name {
   font-size: 24px;
   font-weight: 600;
@@ -147,9 +162,9 @@ select option {
 .rep-card {
   margin: 30px auto 20px;
   padding: 25px 20px 20px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color, #ddd);
   border-radius: 10px;
-  background: var(--card-bg);
+  background: var(--card-background, #fff);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   max-width: 300px;
   text-align: center;
@@ -204,7 +219,45 @@ select option {
   min-width: 100px;
 }
 
-/* BADGES */
+/* BUTTONS */
+.phone-button,
+.email-button,
+.text-button {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.phone-button {
+  background-color: #28a745;
+}
+
+.phone-button:hover {
+  background-color: #218838;
+}
+
+.text-button {
+  background-color: #17a2b8;
+}
+
+.text-button:hover {
+  background-color: #117a8b;
+}
+
+.email-button {
+  background-color: #007bff;
+}
+
+.email-button:hover {
+  background-color: #0056b3;
+}
+
+/* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
   position: absolute;
   top: 12px;
@@ -212,7 +265,7 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px;
+  gap: 6px; /* adds space between RN/NP and site */
   z-index: 2;
 }
 
@@ -246,8 +299,6 @@ select option {
   border-radius: 14px;
   font-weight: 500;
   display: inline-block;
-  position: relative;
-  z-index: 1;
 }
 
 /* SHIFT ICON */
@@ -269,49 +320,150 @@ select option {
 
 .shift-badge .icon {
   font-size: 14px;
+}}
+/* ========================= */
+/*        IMAGE SECTION      */
+/* ========================= */
+
+.image-container {
+  margin: 40px auto 0;
+  text-align: center;
+  max-width: 90%;
 }
 
-/* BUTTON STYLES */
-.phone-button,
-.email-button,
-.text-button {
+.responsive-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.responsive-image:hover {
+  transform: translateY(-5px);
+}
+
+/* ========================= */
+/*          FOOTER           */
+/* ========================= */
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #fafafa;
+  color: var(--text-muted);
+  font-size: 14px;
+  border-top: 1px solid var(--border-color);
+}
+
+/* ========================= */
+/*        RESPONSIVE         */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 200px;
+  }
+
+  .hero-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  main h2 {
+    font-size: 18px;
+  }
+
+  select {
+    font-size: 16px;
+  }
+
+  .rep-card {
+    padding: 15px;
+  }
+
+  .hero-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.email-button {
   display: inline-block;
   padding: 6px 14px;
+  background-color: var(--accent-color);
+  color: #fff !important;  /* Forces white text */
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 6px;
-  transition: background-color 0.2s ease;
-  color: #fff !important;
-}
-
-.phone-button {
-  background-color: #28a745;
-}
-
-.phone-button:hover {
-  background-color: #218838;
-}
-
-.text-button {
-  background-color: #17a2b8;
-  margin: 0 5px;
-}
-
-.text-button:hover {
-  background-color: #117a8b;
-}
-
-.email-button {
-  background-color: var(--accent-color);
+  transition: background-color 0.3s ease;
   margin-left: 5px;
 }
 
 .email-button:hover {
   background-color: #0056b3;
+  color: #fff !important;
+}
 }
 
-/* Q&A SECTION */
+.email-button:hover {
+  background-color: #0056b3;
+}
+.phone-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #28a745; /* Green */
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+}
+
+.phone-button:hover {
+  background-color: #218838;
+  color: #fff !important;
+}
+.text-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #17a2b8; /* Teal */
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin: 0 5px;
+}
+
+.text-button:hover {
+  background-color: #117a8b;
+  color: #fff !important;
+}
+}
+
+.text-button:hover {
+  background-color: #e0a800;
+  color: #fff !important;
+}
+}
+
+.text-button:hover {
+  background-color: #1e7e34;
+}
+/* ========================= */
+/*         Q&A Section       */
+/* ========================= */
+
 .qa-section {
   padding: 40px 20px;
   max-width: 800px;
@@ -352,68 +504,4 @@ select option {
   font-weight: 500;
   color: #555;
   margin-bottom: 8px;
-}
-
-/* IMAGE SECTION */
-.image-container {
-  margin: 40px auto 0;
-  text-align: center;
-  max-width: 90%;
-}
-
-.responsive-image {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
-}
-
-.responsive-image:hover {
-  transform: translateY(-5px);
-}
-
-/* FOOTER */
-footer {
-  margin-top: 50px;
-  padding: 20px;
-  background: #fafafa;
-  color: var(--text-muted);
-  font-size: 14px;
-  border-top: 1px solid var(--border-color);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .logo {
-    max-width: 200px;
-  }
-
-  .hero-title {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .hero-subtitle {
-    font-size: 16px;
-    padding: 6px 12px;
-  }
-
-  main h2 {
-    font-size: 18px;
-  }
-
-  select {
-    font-size: 16px;
-  }
-
-  .rep-card {
-    padding: 15px;
-  }
-
-  .hero-row {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
