@@ -579,12 +579,11 @@ footer {
 
 .badge-key-title {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: #003366;
-  text-align: left;
+  text-align: center;
   width: 100%;
-  padding-left: 4px;
-  text-decoration: underline;
+  text-transform: uppercase;
   margin-bottom: 4px;
 }
 
