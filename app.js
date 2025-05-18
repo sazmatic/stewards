@@ -113,7 +113,7 @@ const representatives = {
   ],
   "Wayne": [
     { name: "Amanda Layne", unit: "RN", email: "alayne824@gmail.com" },
-    { name: "Carol Goscinski", unit: "RN", email: "carolgoscinskirn@gmail.com" },
+    { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", email: "daniellepiechota@gmail.com" },
     { name: "Heather Mauree Feathers", unit: "RN", email: "hmandalis@yahoo.com" },
     { name: "Jason Frantangelo", unit: "RN", phone: "734-624-8172", email: "tangelo411@gmail.com" },
