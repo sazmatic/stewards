@@ -519,18 +519,21 @@ footer {
 
 .badge-key-inline {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 14px;
-  color: var(--text-muted);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 8px;
+  margin-left: 12px;
 }
 
 .badge-icon {
-  font-size: 18px;
+  font-size: 16px;
+  margin-right: 6px;
 }
 
 .badge-label {
-  margin-right: 10px;
+  font-size: 13px;
+  color: #333;
 }
 .qa-item {
   margin-bottom: 25px;
