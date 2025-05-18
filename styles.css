@@ -532,6 +532,19 @@ footer {
 .qa-section .qa-item h3 {
   text-align: left;
 }
+.escalation-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.escalation-section h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--highlight-color);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 repName.innerHTML = representatives[campus]
   .map(rep => `
