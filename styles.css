@@ -525,9 +525,10 @@ footer {
   margin-bottom: 8px;
 }
 
-
-
-And this is the js:
+.qa-section .qa-item p,
+.qa-section .qa-item li {
+  text-align: left;
+}
 
 repName.innerHTML = representatives[campus]
   .map(rep => `
