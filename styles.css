@@ -567,7 +567,13 @@ footer {
   gap: 6px;
   margin-left: 12px;
 }
-
+.badge-key-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #003366;
+  margin-bottom: 4px;
+  
 .badge-icon {
   font-size: 16px;
 }
@@ -576,14 +582,7 @@ footer {
   font-weight: 500;
   font-size: 12px;
 }
-.badge-key-title {
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: underline;
-  color: #003366;
-  margin-bottom: 6px;
-}
+
 
 .qa-item {
   margin-bottom: 25px;
