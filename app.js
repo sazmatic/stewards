@@ -155,7 +155,7 @@ const representatives = {
 function handleCampusChange() {
   const campus = this.value;
   const campusName = document.getElementById('campus-name');
-const campusHeader = document.getElementById('campus-header');
+  const campusHeader = document.getElementById('campus-header');
   const repInfo = document.getElementById('rep-info');
   const repName = document.getElementById('rep-name');
 
@@ -184,9 +184,10 @@ const campusHeader = document.getElementById('campus-header');
           ${rep.shift === 'Night' ? `
             <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
           ` : ''}
-        ${rep.shift === 'Mid' ? `
-        <div class="shift-badge" title="Mid Shift"><span class="icon">☀️🌙</span></div>
-        ` : ''}
+          ${rep.shift === 'Mid' ? `
+            <div class="shift-badge" title="Mid Shift"><span class="icon">☀️🌙</span></div>
+          ` : ''}
+
           <div class="rep-name">
             <strong>${rep.name}</strong>
           </div>
@@ -225,26 +226,26 @@ document.addEventListener('DOMContentLoaded', () => {
       let content = '';
 
       if (selected === 'trigona') {
-  content = `
-    <div class="rep-card">
-      <div class="rep-name"><strong>Dave Trigona</strong></div>
-      <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
-      <div class="rep-title">IBT Health Care Division Representative</div>
-      <div class="rep-buttons">
-        <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
-      </div>
-    </div>`;
-} else if (selected === 'hughes') {
-  content = `
-    <div class="rep-card">
-      <div class="rep-name"><strong>Dave Hughes</strong></div>
-      <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
-      <div class="rep-title">IBT Health Care Division Representative</div>
-      <div class="rep-buttons">
-        <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
-      </div>
-    </div>`;
-}
+        content = `
+          <div class="rep-card">
+            <div class="rep-name"><strong>Dave Trigona</strong></div>
+            <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
+            <div class="rep-title">IBT Health Care Division Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
+            </div>
+          </div>`;
+      } else if (selected === 'hughes') {
+        content = `
+          <div class="rep-card">
+            <div class="rep-name"><strong>Dave Hughes</strong></div>
+            <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
+            <div class="rep-title">IBT Health Care Division Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
+            </div>
+          </div>`;
+      }
 
       leaderContact.innerHTML = content;
     });
