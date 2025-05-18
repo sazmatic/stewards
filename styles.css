@@ -39,6 +39,7 @@ html, body {
   align-items: center;
   text-align: center;
   border-bottom: 1px solid #ddd;
+  margin: 0;
 }
 
 /* Horizontal layout for logo + title */
