@@ -74,7 +74,7 @@ const representatives = {
     { name: "Jessica Hendershot", unit: "RN", email: "Hendershot.jessica@gmail.com" },
     { name: "JoAnna Sturm", unit: "RN", email: "sturm1002@gmail.com" },
     { name: "Joanna Randall", unit: "RN", email: "Jovi1125@gmail.com" },
-    { name: "Joanne Highfield", unit: "RN", email: "mrsbh@yahoo.com" },
+    { name: "Joanne Highfield", unit: "RN", email: "mrsbh78@yahoo.com" },
     { name: "Julie Marshall", unit: "RN", email: "Wyjamrn@sbcglobal.net" },
     { name: "Karen Shubring", unit: "RN", email: "kschub60@gmail.com" },
     { name: "Katherine Wallace", unit: "RN", phone: "248-404-8084", email: "gr8chi@aol.com" },
@@ -113,7 +113,7 @@ const representatives = {
   ],
   "Wayne": [
     { name: "Amanda Layne", unit: "RN", email: "alayne824@gmail.com" },
-    { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
+    { name: "Carol Goscinski", unit: "RN", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", email: "daniellepiechota@gmail.com" },
     { name: "Heather Mauree Feathers", unit: "RN", email: "hmandalis@yahoo.com" },
     { name: "Jason Frantangelo", unit: "RN", phone: "734-624-8172", email: "tangelo411@gmail.com" },
