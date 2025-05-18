@@ -204,7 +204,7 @@ const campusHeader = document.getElementById('campus-header');
   } else {
     campusName.style.display = 'none';
     repInfo.style.display = 'none';
-    document.getElementById('badge-key').style.display = 'none';
+    campusHeader.style.display = 'none';
   }
 }
 
