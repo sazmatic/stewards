@@ -1,17 +1,12 @@
-
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #003366; /* Navy Blue */
+  --highlight-color: #003366;
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
   --text-muted: #666;
 }
-
-/* ========================= */
-/*        GLOBAL STYLES      */
-/* ========================= */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -21,10 +16,6 @@ body {
   padding: 0;
   text-align: center;
 }
-
-/* ========================= */
-/*         HERO HEADER       */
-/* ========================= */
 
 .hero {
   background: #fff;
@@ -36,27 +27,25 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-/* Horizontal layout for logo + title */
 .hero-row {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  width: 100%
+  width: 100%;
 }
 
-/* Bigger logo */
 .logo {
   max-width: 280px;
-  width: 100%
+  width: 100%;
   height: auto;
 }
 
 .hero-title {
   font-size: 28px;
   font-weight: 700;
-  color: var(--highlight-color); /* Navy Blue */
+  color: var(--highlight-color);
   text-transform: uppercase;
   letter-spacing: 1.2px;
   margin: 0;
@@ -66,11 +55,10 @@ body {
   background-color: #f0f4f9;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
-  white-space: nowrap;       /* ✅ keeps it on one line */
-  overflow-x: auto;          /* ✅ lets it scroll if needed */
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
-/* Subtitle below */
 .hero-subtitle {
   font-size: 18px;
   color: var(--text-muted);
@@ -83,10 +71,6 @@ body {
   display: inline-block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
-
-/* ========================= */
-/*           MAIN            */
-/* ========================= */
 
 main {
   display: flex;
@@ -104,7 +88,6 @@ main h2 {
   margin-bottom: 20px;
 }
 
-/* Dropdown */
 .dropdown-wrapper {
   width: 100%;
   max-width: 400px;
@@ -143,10 +126,6 @@ select option {
   color: #333;
 }
 
-/* ========================= */
-/*        REP SECTION        */
-/* ========================= */
-
 #campus-name {
   font-size: 24px;
   font-weight: 700;
@@ -158,11 +137,9 @@ select option {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   display: inline-block;
   text-align: center;
-#campus-name {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
 }
 
 #rep-info {
@@ -232,7 +209,6 @@ select option {
   min-width: 100px;
 }
 
-/* BUTTONS */
 .phone-button,
 .email-button,
 .text-button {
@@ -270,7 +246,6 @@ select option {
   background-color: #0056b3;
 }
 
-/* BADGES: RN / NP + Site */
 .unit-badge-wrapper {
   position: absolute;
   top: 4px;
@@ -278,7 +253,6 @@ select option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: -8px;
   z-index: 2;
 }
 
@@ -293,7 +267,6 @@ select option {
   align-items: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
-
 
 .unit-np {
   background-color: #e6fff1;
@@ -318,7 +291,6 @@ select option {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-/* SHIFT ICON */
 .shift-badge {
   position: absolute;
   top: 12px;
@@ -337,154 +309,7 @@ select option {
 
 .shift-badge .icon {
   font-size: 14px;
-}}
-/* ========================= */
-/*        IMAGE SECTION      */
-/* ========================= */
-
-.image-container {
-  margin: 40px auto 0;
-  text-align: center;
-  max-width: 90%;
 }
-
-.responsive-image {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
-}
-
-.responsive-image:hover {
-  transform: translateY(-5px);
-}
-
-/* ========================= */
-/*          FOOTER           */
-/* ========================= */
-
-footer {
-  margin-top: 50px;
-  padding: 20px;
-  background: #fafafa;
-  color: var(--text-muted);
-  font-size: 14px;
-  border-top: 1px solid var(--border-color);
-}
-
-/* ========================= */
-/*        RESPONSIVE         */
-/* ========================= */
-
-@media (max-width: 480px) {
-  .logo {
-    max-width: 200px;
-  }
-
-  .hero-title {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .hero-subtitle {
-    font-size: 16px;
-    padding: 6px 12px;
-  }
-
-  main h2 {
-    font-size: 18px;
-  }
-
-  select {
-    font-size: 16px;
-  }
-
-  .rep-card {
-    padding: 15px;
-  }
-
-  .hero-row {
-    flex-direction: column;
-    gap: 10px;
-  }
-@media (max-width: 480px) {
-  #campus-name {
-    font-size: 20px;
-  }
-}
-}
-.email-button {
-  display: inline-block;
-  padding: 6px 14px;
-  background-color: var(--accent-color);
-  color: #fff !important;  /* Forces white text */
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  margin-left: 5px;
-}
-
-.email-button:hover {
-  background-color: #0056b3;
-  color: #fff !important;
-}
-}
-
-.email-button:hover {
-  background-color: #0056b3;
-}
-.phone-button {
-  display: inline-block;
-  padding: 6px 14px;
-  background-color: #28a745; /* Green */
-  color: #fff !important;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  margin-left: 5px;
-}
-
-.phone-button:hover {
-  background-color: #218838;
-  color: #fff !important;
-}
-.text-button {
-  display: inline-block;
-  padding: 6px 14px;
-  background-color: #17a2b8; /* Teal */
-  color: #fff !important;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  margin: 0 5px;
-}
-
-.text-button:hover {
-  background-color: #117a8b;
-  color: #fff !important;
-}
-}
-
-.text-button:hover {
-  background-color: #e0a800;
-  color: #fff !important;
-}
-}
-
-.text-button:hover {
-  background-color: #1e7e34;
-}
-/* ========================= */
-/*         Q&A Section       */
-/* ========================= */
 
 .qa-section {
   padding: 40px 20px;
@@ -492,6 +317,7 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
+
 .qa-section h2 {
   text-align: center;
   font-size: 22px;
@@ -506,30 +332,44 @@ footer {
   letter-spacing: 1px;
   margin: 0 auto 30px;
 }
-@media (max-width: 480px) {
-  .qa-section h2 {
-    font-size: 18.5px;
-    padding: 6px 12px;
-    letter-spacing: 0.5px;
-  }
-}
-.campus-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  max-width: 600px;
-  width: 100%;
+
+.qa-item {
+  margin-bottom: 25px;
+  border-left: 4px solid var(--highlight-color);
+  padding-left: 15px;
 }
 
-.campus-header h2 {
-  margin: 0;
-  font-size: 24px;
+.qa-item h3 {
+  font-size: 20px;
   font-weight: 600;
-  color: var(--primary-color);
-  text-transform: capitalize;
+  margin-bottom: 8px;
+  color: #003366;
+  text-align: left;
+}
+
+.qa-item p,
+.qa-item li {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.ulp-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.ulp-link:hover {
+  background-color: #0056b3;
 }
 
 .badge-key-inline {
@@ -560,73 +400,6 @@ footer {
   font-size: 14px;
 }
 
-
-.qa-item {
-  margin-bottom: 25px;
-  border-left: 4px solid var(--highlight-color);
-  padding-left: 15px;
-}
-
-.qa-item h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #003366;
-}
-
-.qa-item p {
-  font-size: 16px;
-  color: #444;
-  line-height: 1.6;
-}
-  .ulp-link {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 8px 16px;
-  background-color: #007BFF;
-  color: #fff !important;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-.ulp-link:hover {
-  background-color: #0056b3;
-}
-.rep-title {
-  font-size: 14px;
-  font-weight: 500;
-  color: #555;
-  margin-bottom: 8px;
-}
-
-.qa-section .qa-item p,
-.qa-section .qa-item li {
-  text-align: left;
-}
-.qa-section .qa-item h3 {
-  text-align: left;
-}
-.escalation-section {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.escalation-section h2 {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--highlight-color);
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.highlight-blue {
-  color: #007BFF; /* Bootstrap blue */
-  font-weight: 600;
-}
-
 .campus-header-flex {
   display: flex;
   justify-content: space-between;
@@ -636,52 +409,4 @@ footer {
   margin: 0 auto;
 }
 
-.campus-title-centered {
-  text-align: center;
-  flex-grow: 1;
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--primary-color);
-  margin: 0;
-}
-
-repName.innerHTML = representatives[campus]
-  .map(rep => `
-    <div class="rep-card">
-
-      ${(rep.unit || rep.site) ? `
-        <div class="unit-badge-wrapper">
-          ${rep.unit ? `
-            <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
-              ${rep.unit.toUpperCase()}
-            </div>
-          ` : ''}
-          ${rep.site ? `
-            <div class="rep-site">${rep.site}</div>
-          ` : ''}
-        </div>
-      ` : ''}
-
-      ${rep.shift === 'Day' ? `
-        <div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>
-      ` : ''}
-      ${rep.shift === 'Night' ? `
-        <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
-      ` : ''}
-
-      <div class="rep-name">
-        <strong>${rep.name}</strong>
-      </div>
-
-      ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
-
-      <div class="rep-buttons">
-        ${rep.phone ? `
-          <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
-          <a href="sms:${rep.phone.replace(/-/g, '')}" class="text-button">Text</a>
-        ` : ''}
-        ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
-      </div>
-    </div>
-  `).join('');
-  
+.c
