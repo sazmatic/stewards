@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
   content = `
     <div class="rep-card">
       <div class="rep-name"><strong>Dave Trigona</strong></div>
-      <div class="rep-title">Teamsters Joint Council 43</div>
+      <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
       <div class="rep-title">IBT Health Care Division Representative</div>
       <div class="rep-buttons">
         <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
   content = `
     <div class="rep-card">
       <div class="rep-name"><strong>Dave Hughes</strong></div>
-      <div class="rep-title">Teamsters Joint Council 43</div>
+      <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
       <div class="rep-title">IBT Health Care Division Representative</div>
       <div class="rep-buttons">
         <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
