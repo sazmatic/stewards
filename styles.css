@@ -379,7 +379,7 @@ footer {
 
 @media (max-width: 480px) {
   .logo {
-    max-width: 200px;
+    max-width: 300px;
   }
 
   .hero-title {
