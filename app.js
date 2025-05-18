@@ -67,7 +67,7 @@ const representatives = {
     { name: "Doreen Gwinn", unit: "RN", email: "gwinns2000@gmail.com" },
     { name: "Eileen Blodgett", unit: "RN", email: "eblodg312@icloud.com" },
     { name: "Eric Frazer", unit: "RN", phone: "248-396-2968", email: "Efrazer329@yahoo.com" },
-    { name: "Ethan Tolentino", unit: "RN", email: "will.tolentino@corewellhealth.org" },
+    { name: "Ethan Tolentino", unit: "RN", email: "ethantolentino98@gmail.com" },
     { name: "Jacob Allen", unit: "RN", email: "acobgallen1992@gmail.com" },
     { name: "Jeff Hamm", unit: "RN", email: "Lhamm4575@gmail.com" },
     { name: "Jennifer Trevino", unit: "RN", email: "leperconos@yahoo.com" },
