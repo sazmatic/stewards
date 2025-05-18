@@ -72,7 +72,7 @@ const representatives = {
     { name: "Jeff Hamm", unit: "RN", email: "Lhamm4575@gmail.com" },
     { name: "Jennifer Trevino", unit: "RN", email: "leperconos@yahoo.com" },
     { name: "Jessica Hendershot", unit: "RN", email: "Hendershot.jessica@gmail.com" },
-    { name: "JoAnna Sturm", unit: "RN", email: "sturm1002@gmail.com" },
+    { name: "JoAnna Sturm", unit: "RN", email: "jsturm1002@gmail.com" },
     { name: "Joanna Randall", unit: "RN", email: "Jovi1125@gmail.com" },
     { name: "Joanne Highfield", unit: "RN", email: "mrsbh78@yahoo.com" },
     { name: "Julie Marshall", unit: "RN", email: "Wyjamrn@sbcglobal.net" },
