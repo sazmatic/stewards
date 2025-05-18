@@ -543,6 +543,7 @@ footer {
   gap: 4px;
   min-width: 60px;
   margin-left: 12px;
+  margin-top: 4px;
 }
 
 .badge-key-inline div {
