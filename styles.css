@@ -577,6 +577,16 @@ footer {
   font-size: 12px;
 }
 
+.badge-key-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #003366;
+  text-align: left;
+  width: 100%;
+  padding-left: 4px;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
 
 .qa-item {
   margin-bottom: 25px;
