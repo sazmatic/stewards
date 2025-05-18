@@ -584,7 +584,7 @@ footer {
   padding-left: 15px;
 }
 .qa-item:last-child {
-  margin-bottom: 6px; /* adjust as needed */
+  margin-bottom: 0px; /* adjust as needed */
 }
 
 .qa-item h3 {
