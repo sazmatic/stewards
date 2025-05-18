@@ -203,6 +203,7 @@ function handleCampusChange() {
   } else {
     campusName.style.display = 'none';
     repInfo.style.display = 'none';
+    document.getElementById('badge-key').style.display = 'none';
   }
 }
 
