@@ -56,6 +56,8 @@ html, body {
   max-width: 280px;
   width: 100%
   height: auto;
+  margin: 0;
+  display:  block;
 }
 
 .hero-title {
