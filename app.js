@@ -162,6 +162,7 @@ function handleCampusChange() {
     campusName.textContent = campus;
     campusName.style.display = 'block';
     repInfo.style.display = 'block';
+    document.getElementById('badge-key').style.display = 'flex';
 
     repName.innerHTML = representatives[campus]
       .map(rep => `
