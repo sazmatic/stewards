@@ -34,7 +34,7 @@ const representatives = {
     { name: "Jill Judkins", shift: "Day", unit: "RN", phone: "248-224-1494", email: "timjudkins@comcast.net" },
     { name: "Judie Laverdiere", unit: "RN", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", shift: "Day", unit: "RN", email: "Lucykayla2@yahoo.com" },
-    { name: "Julie Hicks", phone: "248-840-0325", unit: "RN", email: "Juliemhicks123@yahoo.com" },
+    { name: "Julie Hicks", shift: "Day", phone: "248-840-0325", unit: "RN", email: "Juliemhicks123@yahoo.com" },
     { name: "Kalisha Young", shift: "Night", unit: "RN", phone: "586-747-0107", email: "kyoung102989@gmail.com" },
     { name: "Katelyn Savage", shift: "Day", unit: "RN", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
     { name: "Linda Plunkett", shift: "Day", unit: "RN", email: "Busyrnc28@gmail.com" },
