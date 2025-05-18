@@ -542,6 +542,7 @@ footer {
   align-items: flex-start;
   gap: 4px;
   min-width: 60px;
+  margin-left: 12px;
 }
 
 .badge-key-inline div {
