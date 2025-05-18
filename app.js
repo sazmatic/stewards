@@ -80,7 +80,7 @@ const representatives = {
     { name: "Katherine Wallace", unit: "RN", phone: "248-404-8084", email: "gr8chi@aol.com" },
     { name: "Lisa Funke", unit: "RN", email: "funkelisa80@yahoo.com" },
     { name: "Marley Shook", unit: "NP", phone: "586-567-3122", email: "marleyshook313@gmail.com" },
-    { name: "Mary Kulha", unit: "RN", email: "arykulha@hotmail.com" },
+    { name: "Mary Kulha", unit: "RN", email: "marykulha@hotmail.com" },
     { name: "Melinda (Mindy) Martone", unit: "RN", email: "Amamabear3@gmail.com" },
     { name: "Sarah Stiegler", unit: "RN", email: "sadie.stiegler@gmail.com" },
     { name: "Suzi Carbone", unit: "RN", phone: "586-944-4520", email: "spcarbone3@gmail.com" },
