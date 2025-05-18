@@ -32,7 +32,7 @@ const representatives = {
     { name: "Emmy Castillon", shift: "Day", unit: "RN", email: "Emmylynncoronel@gmail.com" },
     { name: "Jacquelyn Whitmore", shift: "Day", unit: "RN", phone: "734-837-3291", email: "Jczarn01@outlook.com" },
     { name: "Jill Judkins", shift: "Day", unit: "RN", phone: "248-224-1494", email: "timjudkins@comcast.net" },
-    { name: "Judie Laverdiere", unit: "RN", email: "Judie.laverdiere@gmail.com" },
+    { name: "Judie Laverdiere", shift: "Day", unit: "RN", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", shift: "Day", unit: "RN", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Hicks", shift: "Day", phone: "248-840-0325", unit: "RN", email: "Juliemhicks123@yahoo.com" },
     { name: "Kalisha Young", shift: "Night", unit: "RN", phone: "586-747-0107", email: "kyoung102989@gmail.com" },
