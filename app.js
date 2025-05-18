@@ -161,7 +161,7 @@ const campusHeader = document.getElementById('campus-header');
 
   if (campus && representatives[campus]) {
     campusName.textContent = campus;
-    campusName.style.display = 'block';
+    campusHeader.style.display = 'flex';
     repInfo.style.display = 'block';
     document.getElementById('badge-key').style.display = 'flex';
 
