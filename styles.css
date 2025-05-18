@@ -25,6 +25,12 @@ body {
 /*         HERO HEADER       */
 /* ========================= */
 
+html, body {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px; /* Add just a little space */
+}
+
 .hero {
   background: #fff;
   padding: 10px 20px 10;
