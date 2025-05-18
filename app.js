@@ -184,7 +184,9 @@ const campusHeader = document.getElementById('campus-header');
           ${rep.shift === 'Night' ? `
             <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
           ` : ''}
-
+        ${rep.shift === 'Mid' ? `
+        <div class="shift-badge" title="Mid Shift"><span class="icon">☀️🌙</span></div>
+        ` : ''}
           <div class="rep-name">
             <strong>${rep.name}</strong>
           </div>
