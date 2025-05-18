@@ -14,7 +14,7 @@ const representatives = {
     { name: "Herb Lorentz", unit: "RN", email: "jrsice2@gmail.com" },
     { name: "Jodie Osseili", unit: "RN", email: "osseilij@yahoo.com" },
     { name: "Linda Powell", unit: "RN", email: "landjp90@hotmail.com" },
-    { name: "Makayla Burke", unit: "RN", phone: "734-626-8701", email: "burkexoh@gmail.com" },
+    { name: "Makayla Burke", unit: "RN", phone: "734-626-8701", email: "burkeexoh@gmail.com" },
     { name: "Marissa Kobmann", unit: "RN", email: "mkobmann1@yahoo.com" },
     { name: "Michelle Barnett", unit: "RN", phone: "850-728-8746", email: "michelle.p.barnett@gmail.com" },
     { name: "Michella Vincent", unit: "RN", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
