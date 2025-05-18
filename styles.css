@@ -545,6 +545,10 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.highlight-blue {
+  color: #007BFF; /* Bootstrap blue */
+  font-weight: 600;
+}
 
 repName.innerHTML = representatives[campus]
   .map(rep => `
