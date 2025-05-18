@@ -583,6 +583,9 @@ footer {
   border-left: 4px solid var(--highlight-color);
   padding-left: 15px;
 }
+.qa-item:last-child {
+  margin-bottom: 12px; /* adjust as needed */
+}
 
 .qa-item h3 {
   font-size: 20px;
