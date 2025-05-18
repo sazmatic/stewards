@@ -28,7 +28,7 @@ body {
 html, body {
   margin: 0;
   padding: 0;
-  padding-top: 10px; /* Add just a little space */
+  padding-top: 0px; /* Add just a little space */
 }
 
 .hero {
