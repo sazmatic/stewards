@@ -533,25 +533,31 @@ footer {
 }
 
 .badge-key-inline {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  align-items: flex-end;
-  background-color: #f9f9f9;
-  padding: 8px 12px;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  margin-left: 16px;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 80px;
+}
+
+.badge-key-inline div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .badge-icon {
-  font-size: 16px;
-  margin-right: 6px;
+  font-size: 18px;
 }
 
 .badge-label {
-  font-size: 13px;
-  color: #333;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 
