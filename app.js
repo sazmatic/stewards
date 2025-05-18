@@ -155,6 +155,7 @@ const representatives = {
 function handleCampusChange() {
   const campus = this.value;
   const campusName = document.getElementById('campus-name');
+const campusHeader = document.getElementById('campus-header');
   const repInfo = document.getElementById('rep-info');
   const repName = document.getElementById('rep-name');
 
