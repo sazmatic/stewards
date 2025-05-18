@@ -164,17 +164,16 @@ select option {
 #campus-name {
   font-size: 20px;
   font-weight: 700;
-  color: #1f2d3d; /* Slightly softer dark blue */
-  padding: 10px 22px; /* Slightly more breathing room */
-  border-radius: 14px; /* Slightly rounder corners */
-  background: linear-gradient(to right, #f9fafb, #edf1f5); /* Slightly lighter gradient */
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  color: #003366;
+  padding: 8px 20px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #f5f7fa, #e8edf3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   display: inline-block;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 10px;
   transition: all 0.3s ease;
   letter-spacing: 0.5px;
-}
 }
 
 #rep-info {
