@@ -103,13 +103,13 @@ const representatives = {
     { name: "Sarah Barker", unit: "RN", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
   ],
   "Grosse Pointe": [
-    { name: "Ashley Roberts", unit: "RN", site: "Lenox", phone: "248-416-2804", email: "aroberts317@gmail.com" },
-    { name: "Bill Braasch", unit: "RN", phone: "313-969-0510", email: "williambraasch@hotmail.com" },
-    { name: "Giulia Heiden", unit: "RN", phone: "586-443-3566", email: "giulia.calimazzo@gmail.com" },
-    { name: "Holly Kowal", unit: "RN", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
-    { name: "Jody Woodley", unit: "RN", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
-    { name: "Samantha Parisi", unit: "RN", site: "Lenox", phone: "586-322-4085", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", unit: "RN", site: "Lenox", phone: "586-747-3995", email: "sbrooks827@yahoo.com" }
+    { name: "Ashley Roberts", unit: "RN", shift: "Day", site: "Lenox", phone: "248-416-2804", email: "aroberts317@gmail.com" },
+    { name: "Bill Braasch", unit: "RN", shift: "Day", phone: "313-969-0510", email: "williambraasch@hotmail.com" },
+    { name: "Giulia Heiden", unit: "RN", shift: "Day", phone: "586-443-3566", email: "giulia.calimazzo@gmail.com" },
+    { name: "Holly Kowal", unit: "RN", shift: "Day", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
+    { name: "Jody Woodley", unit: "RN", shift: "Day", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
+    { name: "Samantha Parisi", unit: "RN", shift: "Day", site: "Lenox", phone: "586-322-4085", email: "samantharn92@gmail.com" },
+    { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrooks827@yahoo.com" }
   ],
   "Wayne": [
     { name: "Amanda Layne", unit: "RN", shift: "Day", email: "alayne824@gmail.com" },
