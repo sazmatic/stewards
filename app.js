@@ -220,27 +220,27 @@ document.addEventListener('DOMContentLoaded', () => {
       const selected = this.value;
       let content = '';
 
-      if (selected === 'Dave Trigona') {
-        content = `
-          <div class="rep-card">
-            <div class="rep-name"><strong>Dave Trigona</strong></div>
-            <div class="rep-title">Teamsters Joint Council 43</div>
-            <div class="rep-title">IBT Health Care Division Representative</div>
-            <div class="rep-buttons">
-              <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
-            </div>
-          </div>`;
-      } else if (selected === 'Dave Hughes') {
-        content = `
-          <div class="rep-card">
-            <div class="rep-name"><strong>Dave Hughes</strong></div>
-            <div class="rep-title">Teamsters Joint Council 43</div>
-            <div class="rep-title">IBT Health Care Division Representative</div>
-            <div class="rep-buttons">
-              <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
-            </div>
-          </div>`;
-      }
+      if (selected === 'trigona') {
+  content = `
+    <div class="rep-card">
+      <div class="rep-name"><strong>Dave Trigona</strong></div>
+      <div class="rep-title">Teamsters Joint Council 43</div>
+      <div class="rep-title">IBT Health Care Division Representative</div>
+      <div class="rep-buttons">
+        <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
+      </div>
+    </div>`;
+} else if (selected === 'hughes') {
+  content = `
+    <div class="rep-card">
+      <div class="rep-name"><strong>Dave Hughes</strong></div>
+      <div class="rep-title">Teamsters Joint Council 43</div>
+      <div class="rep-title">IBT Health Care Division Representative</div>
+      <div class="rep-buttons">
+        <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
+      </div>
+    </div>`;
+}
 
       leaderContact.innerHTML = content;
     });
