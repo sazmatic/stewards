@@ -60,7 +60,7 @@ const representatives = {
     { name: "Amy Holcomb", unit: "RN", email: "amyholcomb1015@gmail.com" },
     { name: "Angela Oltean", unit: "RN", email: "angela.emory44@yahoo.com" },
     { name: "Ashley Kraft", unit: "RN", email: "ashbroski@gmail.com" },
-    { name: "Barb Douglas", unit: "RN", phone: "248-565-6594", email: "bdouglas78@icloud.com" },
+    { name: "Barb Douglas", unit: "RN", phone: "248-565-6594", email: "bdouglas2421@gmail.com" },
     { name: "Brenda Tesnar", unit: "RN", shift: "Night", phone: "248-895-5738", email: "Beetesnar71@gmail.com" },
     { name: "Christy Finn", unit: "RN", phone: "586-855-1247", email: "cfinn1980@sbcglobal.net" },
     { name: "Devon Timmerman", unit: "RN", email: "timmerman.nursing@gmail.com" },
