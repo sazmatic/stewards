@@ -162,20 +162,18 @@ select option {
 /* ========================= */
 
 #campus-name {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  color: var(--highlight-color);
-  margin: 20px 0 10px;
-  padding: 6px 14px;
-  border-radius: 8px;
-  background-color: #f0f4f9;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  color: #1f2d3d; /* Slightly softer dark blue */
+  padding: 10px 22px; /* Slightly more breathing room */
+  border-radius: 14px; /* Slightly rounder corners */
+  background: linear-gradient(to right, #f9fafb, #edf1f5); /* Slightly lighter gradient */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
   display: inline-block;
   text-align: center;
-#campus-name {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
 }
 }
 
