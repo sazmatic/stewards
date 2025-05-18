@@ -163,7 +163,6 @@ const campusHeader = document.getElementById('campus-header');
     campusName.textContent = campus;
     campusHeader.style.display = 'flex';
     repInfo.style.display = 'block';
-    document.getElementById('badge-key').style.display = 'flex';
 
     repName.innerHTML = representatives[campus]
       .map(rep => `
