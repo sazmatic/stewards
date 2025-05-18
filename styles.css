@@ -149,10 +149,15 @@ select option {
 
 #campus-name {
   font-size: 24px;
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-top: 30px;
-  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--highlight-color);
+  margin: 20px 0 10px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background-color: #f0f4f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  text-align: center;
 }
 
 #rep-info {
