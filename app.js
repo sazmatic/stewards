@@ -199,6 +199,43 @@ repName.innerHTML = representatives[campus]
       </div>
     </div>
   `).join('');
+
+// Escalation Dropdown Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const leaderSelect = document.getElementById('leader-select');
+  const leaderContact = document.getElementById('leader-contact');
+
+  if (leaderSelect) {
+    leaderSelect.addEventListener('change', function () {
+      const selected = this.value;
+      let content = '';
+
+      if (selected === 'Dave Trigona') {
+        content = `
+          <div class="rep-card">
+            <div class="rep-name"><strong>Dave Trigona</strong></div>
+            <div class="rep-title">Teamsters Joint Council 43</div>
+            <div class="rep-title">IBT Health Care Division Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:trigona@JC43.org" class="email-button">Email</a>
+            </div>
+          </div>`;
+      } else if (selected === 'Dave Hughes') {
+        content = `
+          <div class="rep-card">
+            <div class="rep-name"><strong>Dave Hughes</strong></div>
+            <div class="rep-title">Teamsters Joint Council 43</div>
+            <div class="rep-title">IBT Health Care Division Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
+            </div>
+          </div>`;
+      }
+
+      leaderContact.innerHTML = content;
+    });
+  }
+});
   } else {
     campusName.style.display = 'none';
     repInfo.style.display = 'none';
