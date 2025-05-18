@@ -529,6 +529,9 @@ footer {
 .qa-section .qa-item li {
   text-align: left;
 }
+.qa-section .qa-item h3 {
+  text-align: left;
+}
 
 repName.innerHTML = representatives[campus]
   .map(rep => `
