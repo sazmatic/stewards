@@ -520,10 +520,12 @@ footer {
 .badge-key-inline {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 4px;
-  margin-top: 8px;
-  margin-left: 12px;
+  align-items: flex-end;
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 .badge-icon {
@@ -535,6 +537,8 @@ footer {
   font-size: 13px;
   color: #333;
 }
+
+
 .qa-item {
   margin-bottom: 25px;
   border-left: 4px solid var(--highlight-color);
