@@ -409,6 +409,11 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+@media (max-width: 480px) {
+  #campus-name {
+    font-size: 20px;
+  }
+}
 }
 .email-button {
   display: inline-block;
