@@ -151,6 +151,7 @@ const representatives = {
   ]
 };
 
+// ======== CAMPUS SELECT LOGIC ========
 function handleCampusChange() {
   const campus = this.value;
   const campusName = document.getElementById('campus-name');
@@ -162,50 +163,59 @@ function handleCampusChange() {
     campusName.style.display = 'block';
     repInfo.style.display = 'block';
 
-repName.innerHTML = representatives[campus]
-  .map(rep => `
-    <div class="rep-card">
-    
-      <div class="unit-badge-wrapper">
-        ${rep.unit ? `
-          <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
-            ${rep.unit.toUpperCase()}
+    repName.innerHTML = representatives[campus]
+      .map(rep => `
+        <div class="rep-card">
+          <div class="unit-badge-wrapper">
+            ${rep.unit ? `
+              <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
+                ${rep.unit.toUpperCase()}
+              </div>
+            ` : ''}
+            ${rep.site ? `
+              <div class="rep-site">${rep.site}</div>
+            ` : ''}
           </div>
-        ` : ''}
-        ${rep.site ? `
-          <div class="rep-site">${rep.site}</div>
-        ` : ''}
-      </div>
 
-      ${rep.shift === 'Day' ? `
-        <div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>
-      ` : ''}
-      ${rep.shift === 'Night' ? `
-        <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
-      ` : ''}
+          ${rep.shift === 'Day' ? `
+            <div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>
+          ` : ''}
+          ${rep.shift === 'Night' ? `
+            <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
+          ` : ''}
 
-      <div class="rep-name">
-        <strong>${rep.name}</strong>
-      </div>
+          <div class="rep-name">
+            <strong>${rep.name}</strong>
+          </div>
 
-      ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
+          ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
 
-      <div class="rep-buttons">
-        ${rep.phone ? `
-          <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
-          <a href="sms:${rep.phone.replace(/-/g, '')}" class="text-button">Text</a>
-        ` : ''}
-        ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
-      </div>
-    </div>
-  `).join('');
+          <div class="rep-buttons">
+            ${rep.phone ? `
+              <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
+              <a href="sms:${rep.phone.replace(/-/g, '')}" class="text-button">Text</a>
+            ` : ''}
+            ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
+          </div>
+        </div>
+      `).join('');
+  } else {
+    campusName.style.display = 'none';
+    repInfo.style.display = 'none';
+  }
+}
 
-// Escalation Dropdown Logic
+// ======== ESCALATION CONTACT DROPDOWN ========
 document.addEventListener('DOMContentLoaded', () => {
+  const campusSelect = document.getElementById('campus-select');
+  if (campusSelect) {
+    campusSelect.addEventListener('change', handleCampusChange);
+  }
+
   const leaderSelect = document.getElementById('leader-select');
   const leaderContact = document.getElementById('leader-contact');
 
-  if (leaderSelect) {
+  if (leaderSelect && leaderContact) {
     leaderSelect.addEventListener('change', function () {
       const selected = this.value;
       let content = '';
@@ -236,8 +246,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-  } else {
-    campusName.style.display = 'none';
-    repInfo.style.display = 'none';
-  }
-}
