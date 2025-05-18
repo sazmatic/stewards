@@ -127,7 +127,7 @@ const representatives = {
     { name: "Jana Nicol Weinert", unit: "RN", email: "Jnb904@hotmail.com" },
     { name: "Katie Wilson", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "kwilso65@emich.edu" },
     { name: "Lindsey Paulick", unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
-    { name: "Meredith Corseti", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
+    { name: "Meredith Corsetti", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
     { name: "Misty Gorman", unit: "RN", email: "misty12472@yahoo.com" },
     { name: "Roseanne Ritzman", unit: "RN", email: "ritzman1123@gmail.com" },
   ],
