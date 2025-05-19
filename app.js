@@ -136,7 +136,7 @@ const representatives = {
   ],
   "Taylor": [
     { name: "Allison Lorentz", unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
-    { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", email: "brittanydejon610@gmail.com" },
+    { name: "Brittany DeJohn", unit: "RN", shift: "Day", textonly: true, phone: "313-694-8718", email: "brittanydejon610@gmail.com" },
     { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", email: "Heather.vorhoff@yahoo.com" },
     { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", email: "kwainman@aol.com" },
     { name: "Michelle Wood", unit: "NP", email: "mpwood.mpw@gmail.com" },
@@ -198,13 +198,16 @@ function handleCampusChange() {
           ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
 
           <div class="rep-buttons">
-            ${rep.phone ? `
-              <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
-              <a href="sms:${rep.phone.replace(/-/g, '')}" class="text-button">Text</a>
-            ` : ''}
-            ${rep.email ? `<a href="mailto:${rep.email}" class="email-button">Email</a>` : ''}
-          </div>
-        </div>
+  ${rep.phone && !rep.textOnly ? `
+    <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">Call</a>
+  ` : ''}
+  ${(rep.phone || rep.textOnly) ? `
+    <a href="sms:${rep.phone?.replace(/-/g, '') || ''}" class="text-button">Text</a>
+  ` : ''}
+  ${rep.email ? `
+    <a href="mailto:${rep.email}" class="email-button">Email</a>
+  ` : ''}
+</div>
       `).join('');
   } else {
     campusName.style.display = 'none';
