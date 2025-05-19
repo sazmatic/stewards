@@ -137,12 +137,12 @@ const representatives = {
   "Taylor": [
     { name: "Allison Lorentz", unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
     { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", textOnly: true, email: "brittanydejon610@gmail.com" },
-    { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", email: "Heather.vorhoff@yahoo.com" },
-    { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", email: "kwainman@aol.com" },
+    { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", textOnly: true, email: "Heather.vorhoff@yahoo.com" },
+    { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", textOnly: true, email: "kwainman@aol.com" },
     { name: "Michelle Wood", unit: "NP", email: "mpwood.mpw@gmail.com" },
-    { name: "Mike Gumbis", unit: "RN", shift: "Night", phone: "734-752-0916", email: "Mlgumbis02@yahoo.com" },
-    { name: "Nancy Sannno", unit: "RN", shift: "Night", phone: "313-415-2664", email: "Nsanno1@yahoo.com" },
-    { name: "Tavena Dysart", unit: "RN", shift: "Day", phone: "734-718-5366", email: "Tavena_dysart@yahoo.com" },
+    { name: "Mike Gumbis", unit: "RN", shift: "Night", phone: "734-752-0916", textOnly: true, email: "Mlgumbis02@yahoo.com" },
+    { name: "Nancy Sannno", unit: "RN", shift: "Night", phone: "313-415-2664", textOnly: true, email: "Nsanno1@yahoo.com" },
+    { name: "Tavena Dysart", unit: "RN", shift: "Day", phone: "734-718-5366", textOnly: true, email: "Tavena_dysart@yahoo.com" },
   ],
   "Trenton": [
     { name: "Andrew Boucher", unit: "RN", email: "atboucher@hotmail.com" },
