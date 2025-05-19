@@ -98,7 +98,7 @@ const representatives = {
     { name: "Debbie Miracle", unit: "RN", shift: "Day", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
     { name: "Erin Gossett", unit: "RN", site: "Livonia", phone: "734-645-8278", email: "Nurseerin2012@yahoo.com" },
     { name: "Hanna Byrnes", site: "Ambulatory", unit: "RN", email: "hannambyrnes@gmail.com" },
-    { name: "Kate Oakford", unit: "RN", email: "Koakford@gmail.com" },
+    { name: "Kate Oakford", unit: "RN", phone: "248-797-0365", email: "Koakford@gmail.com" },
     { name: "Kelly Kinney", unit: "RN", email: "Kellybelle79@gmail.com" },
     { name: "Lisa Alvord", unit: "RN", email: "Mommy42265@yahoo.com" },
     { name: "Liz Sergison", unit: "RN", email: "lizsergison@yahoo.com" },
