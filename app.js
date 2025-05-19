@@ -24,8 +24,8 @@ const representatives = {
     { name: "Sarah Phillips", unit: "RN", email: "sarahphillips.m@gmail.com" }
   ],
   "Royal Oak": [
-    { name: "Carol Sharp", shift: "Day", unit: "RN", phone: "248-729-3730", email: "Sharp48348@gmail.com" },
-    { name: "Christine Berry", shift: "Night", unit: "RN", phone: "248-990-0350", textOnly: true, email: "chrstnpetri@yahoo.com" },
+    { name: "Carol Sharp", shift: "Day", unit: "RN", phone: "248-729-3730", email: "SHARP48348@gmail.com" },
+    { name: "Christine Berry", shift: "Night", unit: "RN", email: "chrstnpetri@yahoo.com" },
     { name: "Christine Young", shift: "Night", unit: "RN", email: "cryoungctr@gmail.com" },
     { name: "Claire Steffes", shift: "Day", unit: "RN", phone: "248-787-0171", email: "Claireniehaus@yahoo.com" },
     { name: "Elisse Beausoleil", shift: "Day", unit: "RN", phone: "248-320-8035", email: "elissea@gmail.com" },
