@@ -115,12 +115,12 @@ const representatives = {
     { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrooks827@yahoo.com" }
   ],
   "Wayne": [
-    { name: "Amanda Layne", unit: "RN", shift: "Day", email: "alayne824@gmail.com" },
+    { name: "Amanda Layne", unit: "RN", phone: "734-307-6027", shift: "Day", email: "alayne824@gmail.com" },
     { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", phone: "313-930-1298", email: "daniellepiechota@gmail.com" },
     { name: "Heather Maurer Feathers", unit: "RN", email: "hmandalis@yahoo.com" },
     { name: "Jason Frantangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "tangelo411@gmail.com" },
-    { name: "Lisa Rich", unit: "RN", shift: "Day", email: "l.rich3@yahoo.com" },
+    { name: "Lisa Rich", unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
     { name: "Mandy O’Rourke", unit: "RN", email: "morourke516@yahoo.com" },
     { name: "Natalie Lunsford", unit: "RN", shift: "Day", phone: "734-250-4073", email: "natrn91@wowway.com" },
     { name: "Tracy Barr", unit: "RN", email: "morkielu@yahoo.com" },
