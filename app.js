@@ -122,7 +122,7 @@ const representatives = {
     { name: "Heather Maurer Feathers", unit: "RN", email: "hmandalis@yahoo.com" },
     { name: "Jason Frantangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "tangelo411@gmail.com" },
     { name: "Lisa Rich", unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
-    { name: "Mandy O’Rourke", unit: "RN", email: "morourke516@yahoo.com" },
+    { name: "Mandy O’Rourke", unit: "RN", phone: "313-460-2480", email: "morourke516@yahoo.com" },
     { name: "Natalie Lunsford", unit: "RN", shift: "Day", phone: "734-250-4073", email: "natrn91@wowway.com" },
     { name: "Tracy Barr", unit: "RN", email: "morkielu@yahoo.com" },
   ],
