@@ -94,7 +94,7 @@ const representatives = {
 
   "Farmington Hills": [
     { name: "Amy Blunden", unit: "RN", shift: "Day", email: "anblunden@gmail.com" },
-    { name: "Anita Dixon", unit: "RN", email: "anitadixon6589@yahoo.com" },
+    { name: "Anita Dixon", unit: "RN", shift: "Night", phone: "734-271-5079", email: "anitadixon6589@yahoo.com" },
     { name: "Bianca Sword", unit: "RN", shift: "Day", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
     { name: "Chau Tran Yang", unit: "RN", shift: "Day", phone: "248-860-2434", email: "cmeyang@me.com" },
     { name: "Debbie Miracle", unit: "RN", shift: "Day", phone: "313-333-3296", email: "miraclefour@sbcglobal.net" },
