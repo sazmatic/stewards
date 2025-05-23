@@ -88,7 +88,7 @@ const representatives = {
     { name: "Mary Kulha", unit: "RN", email: "marykulha@hotmail.com" },
     { name: "Melinda (Mindy) Martone", unit: "RN", phone: "248-410-8845", email: "Amamabear3@gmail.com" },
     { name: "Sarah Stiegler", unit: "RN", email: "sadie.stiegler@gmail.com" },
-    { name: "Suzi Carbone", unit: "RN", phone: "586-944-4520", email: "spcarbone3@gmail.com" },
+    { name: "Suzi Carbone", unit: "RN", phone: "586-944-4520", email: "Suzi_carbone@hotmail.com" },
     { name: "Vincent Tucker", unit: "RN", email: "vincent.tucker@hotmail.com" },
     ],
 
