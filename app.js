@@ -263,9 +263,12 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="rep-title highlight-blue">Local 2024</div>
             <div class="rep-title">RN Representative</div>
             <div class="rep-buttons">
-              <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
-            </div>
-          </div>`;
+              <a href="tel:5866044432" class="phone-button">Call</a>
+             <a href="sms:5866044432" class="text-button">Text</a>
+            <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
+      </div>
+    </div>`;
+}
   } else if (selected === 'fratangelo') {
         content = `
           <div class="rep-card">
