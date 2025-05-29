@@ -151,7 +151,7 @@ const representatives = {
     { name: "Andrew Boucher", unit: "RN", email: "atboucher@hotmail.com" },
     { name: "Cari York", unit: "RN", phone: "313-300-3523", email: "Dougcupcake@sbcglobal.net" },
     { name: "Deborah Lyles", unit: "RN", phone: "313-549-7249", email: "Deblyles21@yahoo.com" },
-    { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
+    { name: "Hollie Claire", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Keli Wludyka", unit: "RN", phone: "313-268-7768", email: "Kwludyka@wowway.com" },
     { name: "Kerri Donovan", unit: "RN", phone: "734-925-1162", email: "Kerridonovan5@gmail.com" },
     { name: "Thomas Bellman", unit: "RN", phone: "734-497-7169", email: "tbellman411@hotmail.com" },
@@ -256,8 +256,16 @@ document.addEventListener('DOMContentLoaded', () => {
               <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
             </div>
           </div>`;
-      }
-
+    } else if (selected === 'johnson') {
+        content = `
+    <div class="rep-card">
+      <div class="rep-name"><strong>Sarah Johnson/strong></div>
+      <div class="rep-title highlight-blue">Local 2024</div>
+      <div class="rep-title">RN Representative</div>
+      <div class="rep-buttons">
+        <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
+      </div>
+    </div>`;
       leaderContact.innerHTML = content;
     });
   }
