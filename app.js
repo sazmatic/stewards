@@ -266,8 +266,17 @@ document.addEventListener('DOMContentLoaded', () => {
               <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
             </div>
           </div>`;
+  } else if (selected === 'fratangelo') {
+        content = `
+          <div class="rep-card">
+            <div class="rep-name"><strong>Jason Fratangelo</strong></div>
+            <div class="rep-title highlight-blue">Local 2024</div>
+            <div class="rep-title">RN Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:tangelo411@gmail.com" class="email-button">Email</a>
+            </div>
+          </div>`;
       }
-
       leaderContact.innerHTML = content;
     });
   }
