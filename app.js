@@ -151,7 +151,7 @@ const representatives = {
     { name: "Andrew Boucher", unit: "RN", email: "atboucher@hotmail.com" },
     { name: "Cari York", unit: "RN", phone: "313-300-3523", email: "Dougcupcake@sbcglobal.net" },
     { name: "Deborah Lyles", unit: "RN", phone: "313-549-7249", email: "Deblyles21@yahoo.com" },
-    { name: "Hollie Claire", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
+    { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Keli Wludyka", unit: "RN", phone: "313-268-7768", email: "Kwludyka@wowway.com" },
     { name: "Kerri Donovan", unit: "RN", phone: "734-925-1162", email: "Kerridonovan5@gmail.com" },
     { name: "Thomas Bellman", unit: "RN", phone: "734-497-7169", email: "tbellman411@hotmail.com" },
