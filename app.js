@@ -68,7 +68,7 @@ const representatives = {
     { name: "Dana Ches Taylor", unit: "RN", email: "dches123@gmail.com" },
     { name: "Devon Timmerman", unit: "RN", phone: "586-651-7919", email: "timmerman.nursing@gmail.com" },
     { name: "Donna Bazinski", unit: "RN", phone: "248-330-5935", email: "dmbazinski@yahoo.com" },
-    { name: "Doreen Gwinn", unit: "RN", email: "gwinns2000@gmail.com" },
+    { name: "Doreen Gwinn", unit: "RN", phone: "248-701-9639", email: "gwinns2000@gmail.com" },
     { name: "Eileen Blodgett", unit: "RN", email: "eblodg312@icloud.com" },
     { name: "Eric Frazer", unit: "RN", phone: "248-396-2968", email: "Efrazer329@yahoo.com" },
     { name: "Ethan Tolentino", unit: "RN", email: "ethantolentino98@gmail.com" },
