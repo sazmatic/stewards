@@ -136,7 +136,7 @@ const representatives = {
     { name: "Lindsey Paulick", unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
     { name: "Meredith Corsetti", shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
     { name: "Misty Gorman", shift: "Day", unit: "RN", email: "misty12472@yahoo.com" },
-    { name: "Roseanne Ritzman", unit: "RN", email: "ritzman1123@gmail.com" },
+    { name: "Rosanne Ritzman", unit: "RN", email: "ritzman1123@gmail.com" },
   ],
   "Taylor": [
     { name: "Alison Lorentz", unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
