@@ -2,7 +2,7 @@ document.getElementById('campus-select').addEventListener('change', handleCampus
 
 const representatives = {
     "Dearborn": [
-    { name: "Alyse Derry", unit: "RN", phone: "517-292-9183", email: "alyselabadie@gmail.com" },
+    { name: "Alyse Labadie", unit: "RN", phone: "517-292-9183", email: "alyselabadie@gmail.com" },
     { name: "Alyson Zajac", unit: "RN", email: "alysomething@msn.com" },
     { name: "Amra Kaliman", unit: "RN", phone: "313-408-3809", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", unit: "RN", phone: "313-522-6696", email: "anissahackett@gmail.com" },
