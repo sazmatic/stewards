@@ -256,16 +256,18 @@ document.addEventListener('DOMContentLoaded', () => {
               <a href="mailto:hughes@JC43.org" class="email-button">Email</a>
             </div>
           </div>`;
-    } else if (selected === 'johnson') {
+      } else if (selected === 'johnson') {
         content = `
-    <div class="rep-card">
-      <div class="rep-name"><strong>Sarah Johnson/strong></div>
-      <div class="rep-title highlight-blue">Local 2024</div>
-      <div class="rep-title">RN Representative</div>
-      <div class="rep-buttons">
-        <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
-      </div>
-    </div>`;
+          <div class="rep-card">
+            <div class="rep-name"><strong>Sarah Johnson</strong></div>
+            <div class="rep-title highlight-blue">Local 2024</div>
+            <div class="rep-title">RN Representative</div>
+            <div class="rep-buttons">
+              <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
+            </div>
+          </div>`;
+      }
+
       leaderContact.innerHTML = content;
     });
   }
