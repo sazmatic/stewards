@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
         content = `
           <div class="rep-card">
             <div class="rep-name"><strong>Jason Fratangelo</strong></div>
-            <div class="rep-title highlight-blue">Teamsters Local 2024 RN</div>
+            <div class="rep-title highlight-blue">Teamsters Local 2024 RN </div>
             <div class="rep-title">RN Representative</div>
             <div class="rep-buttons">
               <a href="tel:7346248172" class="phone-button">Call</a>
