@@ -75,7 +75,7 @@ const representatives = {
     { name: "Hanna Byrnes", site: "Ambulatory", unit: "RN", email: "hannambyrnes@gmail.com" },
     { name: "Jacob Allen", unit: "RN", email: "jacobgallen1992@gmail.com" },
     { name: "Jeff Hamm", unit: "RN", email: "Lhamm4575@gmail.com" },
-    { name: "Jennifer Trevino", unit: "RN", email: "leperconos@yahoo.com" },
+    { name: "Jennifer Trevino", unit: "RN", phone: "248-709-0923", email: "leperconos@yahoo.com" },
     { name: "Jessica Hendershot", unit: "RN", email: "Hendershot.jessica@gmail.com" },
     { name: "JoAnna Sturm", unit: "RN", email: "jsturm1002@gmail.com" },
     { name: "Joanna Randall", unit: "RN", email: "Jovi1125@gmail.com" },
