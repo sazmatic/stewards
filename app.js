@@ -6,7 +6,7 @@ const representatives = {
     { name: "Alyson Zajac", unit: "RN", email: "alysomething@msn.com" },
     { name: "Amra Kaliman", unit: "RN", phone: "313-408-3809", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", unit: "RN", phone: "313-522-6696", email: "anissahackett@gmail.com" },
-    { name: "Anna Capling", unit: "RN", email: "Annajousma@ymail.com" },
+    { name: "Anna Capling", unit: "RN", phone: "313-969-0482", email: "Annajousma@ymail.com" },
     { name: "Becky Smola", unit: "RN", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com" },
     { name: "Bretton Buccilli", unit: "RN", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
     { name: "Erika Montgomery", unit: "RN", email: "montgomery113@ymail.com" },
