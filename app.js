@@ -11,7 +11,6 @@ const representatives = {
     { name: "Bretton Buccilli", unit: "RN", shift: "Day", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
     { name: "Erika Montgomery", unit: "RN", shift: "Day", email: "montgomery113@ymail.com" },
     { name: "Herb Lorentz", unit: "RN", shift: "Day", email: "jrsice2@gmail.com" },
-    { name: "Jodie Osseili", unit: "RN", shift: "Day", email: "osseilij@yahoo.com" },
     { name: "Linda Powell", unit: "RN", shift: "Day", email: "landjp90@hotmail.com" },
     { name: "Makayla Madrigal", unit: "RN", shift: "Mid", phone: "734-626-8701", email: "burkeexoh@gmail.com" },
     { name: "Marissa Kobmann", unit: "RN", shift: "Day", phone: "517-648-5090", email: "mkobmann1@yahoo.com" },
@@ -22,6 +21,7 @@ const representatives = {
     { name: "Renee Mowery", unit: "RN", shift: "Day", phone: "313-415-6216", email: "remo1327@yahoo.com" },
     { name: "Sarah Brock", unit: "RN", shift: "Night", phone: "313-402-7109", email: "sarah.brock.612@gmail.com" },
     { name: "Sarah Phillips", unit: "RN", shift: "Day", phone: "734-395-0773", email: "sarahphillips.m@gmail.com" },
+    { name: "Shailee Gray", unit: "RN", shift: "Day", phone: "313-523-8021", email: "Grayshailee@gmail.com" },
   ],
   "Royal Oak": [
     { name: "Carol Sharp", shift: "Day", unit: "RN", phone: "248-729-3730", email: "SHARP48348@gmail.com" },
