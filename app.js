@@ -103,7 +103,7 @@ const representatives = {
     { name: "Hanna Byrnes", site: "Ambulatory", unit: "RN", email: "hannambyrnes@gmail.com" },
     { name: "Kate Oakford", unit: "RN", phone: "248-797-0365", email: "Koakford@gmail.com" },
     { name: "Kelly Kinney", unit: "RN", email: "Kellybelle79@gmail.com" },
-    { name: "Lisa Alvord", unit: "RN", email: "Mommy42265@yahoo.com" },
+    { name: "Lisa Alvord", unit: "RN", phone: "313-919-0712", email: "Mommy42265@yahoo.com" },
     { name: "Liz Sergison", unit: "RN", email: "lizsergison@yahoo.com" },
     { name: "Misty Croteau", unit: "RN", site: "Livonia", shift: "Day", phone: "734-658-0815", email: "mcroteau84@gmail.com" },
     { name: "Sarah Barker", unit: "RN", phone: "586-610-4847", email: "lynnsarah812@gmail.com" }
