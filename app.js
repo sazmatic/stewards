@@ -131,7 +131,7 @@ const representatives = {
   "Southfield": [
     { name: "Amy Pinneo", shift: "Day", unit: "RN", phone: "313-445-0710", email: "helmamy13@gmail.com" },
     { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
-    { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", email: "Jnb904@hotmail.com" },
+    { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", phone: "586-933-3250", email: "Jnb904@hotmail.com" },
     { name: "Katie Wilson", shift: "Mid", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "kwilso65@emich.edu" },
     { name: "Lindsey Paulick", unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
     { name: "Meredith Corsetti", shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
