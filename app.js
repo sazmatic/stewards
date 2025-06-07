@@ -121,7 +121,7 @@ const representatives = {
     { name: "Amanda Layne", unit: "RN", phone: "734-307-6027", shift: "Day", email: "alayne824@gmail.com" },
     { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", phone: "313-930-1298", email: "daniellepiechota@gmail.com" },
-    { name: "Heather Maurer Feathers", unit: "RN", email: "hmandalis@yahoo.com" },
+    { name: "Heather Maurer", unit: "RN", phone: "313-330-2196", email: "hmandalis@yahoo.com" },
     { name: "Jason Fratangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "tangelo411@gmail.com" },
     { name: "Lisa Rich", unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
     { name: "Mandy O’Rourke", unit: "RN", phone: "313-460-2480", email: "morourke516@yahoo.com" },
