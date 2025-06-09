@@ -47,7 +47,7 @@ const representatives = {
     { name: "Natalie Richmond", shift: "Day", unit: "RN", phone: "248-873-7373", email: "littlemissrichmond@gmail.com" },
     { name: "Rachael Patton", shift: "Day", unit: "RN", email: "Rachael.patton@icloud.com" },
     { name: "Rachel Szadyr", shift: "Day", unit: "RN", phone: "248-408-8946", email: "szadyrr@gmail.com" },
-    { name: "Sarah Johnson", shift: "Day", unit: "RN", phone: "586-604-4432", email: "sarah.johnson7170@gmail.com"},
+    { name: "Sarah Johnson", shift: "Day", unit: "RN", phone: "586-604-4432", email: "SarahLocal2024@gmail.com"},
     { name: "Sarah Lawrey", shift: "Day", unit: "RN", email: "seep_law@hotmail.com"},
     { name: "Sargon Mikho", shift: "Day", unit: "RN", phone: "586-567-1995", email: "s.mikho@icloud.com" },
     { name: "Sharon McCombs", shift: "Night", unit: "RN", phone: "313-530-9195", email: "Smrn714@gmail.com" },
@@ -122,7 +122,7 @@ const representatives = {
     { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", phone: "313-930-1298", email: "daniellepiechota@gmail.com" },
     { name: "Heather Maurer", unit: "RN", phone: "313-330-2196", email: "hmandalis@yahoo.com" },
-    { name: "Jason Fratangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "tangelo411@gmail.com" },
+    { name: "Jason Fratangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "Jfratlocal2024@gmail.com" },
     { name: "Lisa Rich", unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
     { name: "Mandy O’Rourke", unit: "RN", phone: "313-460-2480", email: "morourke516@yahoo.com" },
     { name: "Natalie Lunsford", unit: "RN", shift: "Day", phone: "734-250-4073", email: "natrn91@wowway.com" },
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="rep-buttons">
               <a href="tel:5866044432" class="phone-button">Call</a>
               <a href="sms:5866044432" class="text-button">Text</a>
-              <a href="mailto:sarah.johnson7170@gmail.com" class="email-button">Email</a>
+              <a href="mailto:SarahLocal2024@gmail.com" class="email-button">Email</a>
             </div>
           </div>`;
       } else if (selected === 'fratangelo') {
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="rep-buttons">
               <a href="tel:7346248172" class="phone-button">Call</a>
               <a href="sms:7346248172" class="text-button">Text</a>
-              <a href="mailto:tangelo411@gmail.com" class="email-button">Email</a>
+              <a href="mailto:Jfratlocal2024@gmail.com" class="email-button">Email</a>
             </div>
           </div>`;
       }
