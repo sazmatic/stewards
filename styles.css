@@ -709,4 +709,17 @@ repName.innerHTML = representatives[campus]
       </div>
     </div>
   `).join('');
-  
+  .hero-website {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: none;
+  margin-top: 8px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.hero-website:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
