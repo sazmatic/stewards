@@ -718,26 +718,24 @@ repName.innerHTML = representatives[campus]
   display: inline-block;
   transition: color 0.3s ease;
 }
-
-.hero-website:hover {
-  color: var(--highlight-color);
-  text-decoration: underline;
-}
-
-          .hero-website-button {
+.hero-website-button {
   display: inline-block;
-  margin-top: 12px;
-  padding: 10px 20px;
+  margin-top: 14px;
+  padding: 12px 24px;
   background-color: var(--accent-color);
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 700;
   text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  border: 2px solid var(--accent-color);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.25s ease;
 }
 
 .hero-website-button:hover {
   background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+  transform: translateY(-2px);
 }
