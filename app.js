@@ -34,7 +34,6 @@ const representatives = {
     { name: "Jacquelyn Whitmore", shift: "Day", unit: "RN", phone: "734-837-3291", email: "Jczarn01@outlook.com" },
     { name: "Jenna Rousso", shift: "Day", site: "Care Coordinator", unit: "RN", phone: "203-394-1901", email: "jennar2128@gmail.com" },
     { name: "Jill Judkins", shift: "Day", unit: "RN", phone: "248-224-1494", email: "timjudkins@comcast.net" },
-    { name: "John P. Denomy", shift: "Day", unit: "RN", email: "jpdenomy2@gmail.com" },
     { name: "Judie Laverdiere", shift: "Day", unit: "RN", phone: "248-761-4755", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", shift: "Day", unit: "RN", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Hicks", shift: "Day", phone: "248-840-0325", unit: "RN", email: "Juliemhicks123@yahoo.com" },
