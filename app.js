@@ -6,7 +6,7 @@ const representatives = {
     { name: "Alyson Zajac", unit: "RN", shift: "Day", email: "alysomething@msn.com" },
     { name: "Amra Kaliman", unit: "RN", shift: "Night", phone: "313-408-3809", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", unit: "RN", shift: "Day", phone: "313-522-6696", email: "anissahackett@gmail.com" },
-    { name: "Anna Capling", unit: "RN", shift: "Day", phone: "313-969-0482", email: "Annajousma@ymail.com" },
+    { name: "Anna Capling", unit: "RN", shift: "Day", phone: "313-969-0482", email: "annacapling9@gmail.com" },
     { name: "Becky Smola", unit: "RN", shift: "Day", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com" },
     { name: "Bretton Buccilli", unit: "RN", shift: "Day", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
     { name: "Erika Montgomery", unit: "RN", shift: "Day", email: "montgomery113@ymail.com" },
@@ -43,6 +43,7 @@ const representatives = {
     { name: "Linda Plunkett", shift: "Day", unit: "RN", phone: "313-460-2474", email: "Busyrnc28@gmail.com" },
     { name: "Lindsey Dye", shift: "Day", unit: "RN", email: "Linds9867@yahoo.com" },
     { name: "Lori Greenlee", shift: "Day", unit: "RN", phone: "586-651-1266", email: "lagreenlee71@gmail.com" },
+    { name: "Lynn Falloni", shift: "Night", unit: "RN", phone: "586-610-3633", email: "lynn1108@att.net" },
     { name: "Michael Browning", shift: "Day", unit: "RN", phone: "586-453-6755", email: "Michael.browning.rn@hotmail.com" },
     { name: "Michelle Dewilde", shift: "Day", unit: "RN", phone: "810-938-3138", email: "michelledewilde@yahoo.com" },
     { name: "Natalie Richmond", shift: "Day", unit: "RN", phone: "248-873-7373", email: "littlemissrichmond@gmail.com" },
@@ -118,7 +119,7 @@ const representatives = {
     { name: "Holly Kowal", unit: "RN", shift: "Day", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", unit: "RN", shift: "Day", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
     { name: "Samantha Parisi", unit: "RN", shift: "Day", site: "Lenox", phone: "586-322-4085", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrooks827@yahoo.com" }
+    { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrookslocal2024@yahoo.com" }
   ],
   "Wayne": [
     { name: "Amanda Layne", unit: "RN", phone: "734-307-6027", shift: "Day", email: "alayne824@gmail.com" },
