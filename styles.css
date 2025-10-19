@@ -738,27 +738,4 @@ repName.innerHTML = representatives[campus]
 .footer-website-button:hover {
   background-color: var(--highlight-color);
   transform: translateY(-2px);
-}
 
-.hero-buttons {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.hero-button {
-  background-color: #004080; /* Teamsters blue */
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  font-family: 'Roboto', sans-serif;
-}
-
-.hero-button:hover {
-  background-color: #002e5c;
-  transform: translateY(-2px);
-}
