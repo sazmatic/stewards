@@ -739,3 +739,30 @@ repName.innerHTML = representatives[campus]
   background-color: var(--highlight-color);
   transform: translateY(-2px);
 
+.hero-links {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hero-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.hero-links a:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
+
+.hero-links .divider {
+  color: #aaa;
+  font-weight: 400;
+}
