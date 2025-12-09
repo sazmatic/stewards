@@ -46,7 +46,6 @@ const representatives = {
     { name: "Michael Browning", shift: "Day", unit: "RN", phone: "586-453-6755", email: "Michael.browning.rn@hotmail.com" },
     { name: "Michelle Dewilde", shift: "Day", unit: "RN", phone: "810-938-3138", email: "michelledewilde@yahoo.com" },
     { name: "Natalie Richmond", shift: "Day", unit: "RN", phone: "248-873-7373", email: "littlemissrichmond@gmail.com" },
-    { name: "Rachael Patton", shift: "Day", unit: "RN", email: "Rachael.patton@icloud.com" },
     { name: "Rachel Szadyr", shift: "Day", unit: "RN", phone: "248-408-8946", email: "rszalocal2024@gmail.com" },
     { name: "Sarah Johnson", shift: "Day", unit: "RN", phone: "586-604-4432", email: "SarahLocal2024@gmail.com"},
     { name: "Sarah Lawrey", shift: "Day", unit: "RN", email: "seep_law@hotmail.com"},
