@@ -2,7 +2,6 @@ document.getElementById('campus-select').addEventListener('change', handleCampus
 
 const representatives = {
     "Dearborn": [
-    { name: "Alyse Labadie", unit: "RN", shift: "Day", phone: "517-292-9183", email: "alyselabadie@gmail.com" },
     { name: "Alyson Zajac", unit: "RN", shift: "Day", email: "alysomething@msn.com" },
     { name: "Amra Kaliman", unit: "RN", shift: "Night", phone: "313-408-3809", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", unit: "RN", shift: "Day", phone: "313-522-6696", email: "anissahackett@gmail.com" },
@@ -19,7 +18,6 @@ const representatives = {
     { name: "Michelle Barnett", unit: "RN", shift: "Day", phone: "850-728-8746", email: "michelle.p.barnett@gmail.com" },
     { name: "Michella Vincent", shift: "Day", unit: "RN", phone: "313-585-1858", email: "michella.vincent@yahoo.com" },
     { name: "Renee Mowery", unit: "RN", shift: "Day", phone: "313-415-6216", email: "remo1327@yahoo.com" },
-    { name: "Sarah Brock", unit: "RN", shift: "Night", phone: "313-402-7109", email: "sarah.brock.612@gmail.com" },
     { name: "Sarah Phillips", unit: "RN", shift: "Day", phone: "734-395-0773", email: "sarahphillips.m@gmail.com" },
     { name: "Shailee Gray", unit: "RN", shift: "Day", phone: "313-523-8021", email: "Grayshailee@gmail.com" },
   ],
