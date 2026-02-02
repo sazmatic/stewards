@@ -1,11 +1,42 @@
 :root {
   --primary-color: #333;
   --accent-color: #007BFF;
-  --highlight-color: #003366; /* Navy Blue */
+  --highlight-color: #003366;
   --border-color: #e0e0e0;
   --card-bg: #ffffff;
   --background-color: #ffffff;
   --text-muted: #666;
+}
+
+/* ===== OFFICIAL RESOURCES (SAFE INSERT) ===== */
+
+#official-resources {
+  width: 100%;
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+#official-resources a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 0.85rem 1.1rem;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #003366;
+
+  font-weight: 800;
+  font-size: 0.95rem;
+
+  border: 2px solid #c9dcff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+#official-resources a:hover {
+  background: #f5f9ff;
 }
 
 /* ========================= */
