@@ -76,7 +76,6 @@ const representatives = {
     { name: "Jessica Hendershot", unit: "RN", email: "Hendershot.jessica@gmail.com" },
     { name: "JoAnna Sturm", unit: "RN", email: "jsturm1002@gmail.com" },
     { name: "Joanna Randall", unit: "RN", email: "Jovi1125@gmail.com" },
-    { name: "Joanne Highfield", unit: "RN", email: "mrsbh78@yahoo.com" },
     { name: "Judy Hayes", shift: "Day", unit: "RN", phone: "248-909-6619", email: "Lucykayla2@yahoo.com" },
     { name: "Julie Marshall", unit: "RN", shift: "Day", email: "Wyjamrn@sbcglobal.net" },
     { name: "Karen Shubring", unit: "RN", email: "kschub60@gmail.com" },
