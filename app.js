@@ -91,7 +91,7 @@ const representatives = {
     { name: "Anita Dixon", unit: "RN", site: "Commons", shift: "Night", phone: "734-271-5089", email: "anitadixon6589@yahoo.com" },
     { name: "Bianca Sword", unit: "RN", shift: "Day", phone: "734-635-9997", email: "bbkubicki@gmail.com" },
     { name: "Chau Tran Yang", unit: "RN", shift: "Day", phone: "248-860-2434", email: "cmeyang@me.com" },
-    { name: "Debbie Miracle", unit: "RN", shift: "Day", phone: "313-333-3296" },
+    { name: "Debbie Miracle", unit: "RN", shift: "Day", phone: "313-333-3296", bargainingTeam: true},
     { name: "Hanna Byrnes", site: "Ambulatory", unit: "RN", email: "hannambyrnes@gmail.com" },
     { name: "Kate Oakford", unit: "RN", phone: "248-797-0365", email: "Koakford@gmail.com" },
     { name: "Kelly Kinney", unit: "RN", shift: "Day", phone: "734-679-6497", email: "Kellybelle79@gmail.com" },
