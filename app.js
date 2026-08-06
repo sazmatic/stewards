@@ -166,111 +166,95 @@ function handleCampusChange() {
 
     repName.innerHTML = representatives[campus]
       .map(rep => `
-<div class="unit-badge-wrapper">
-  ${rep.unit ? `
-    <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
-      ${rep.unit.toUpperCase()}
-    </div>
-  ` : ''}
+        <div class="rep-card">
 
-  ${rep.bargainingTeam ? `
-    <div
-      class="bargaining-badge"
-      title="Served on the contract bargaining team"
-    >
-      Bargaining Team
-    </div>
-  ` : ''}
+          <div class="unit-badge-wrapper">
+            ${rep.unit ? `
+              <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
+                ${rep.unit.toUpperCase()}
+              </div>
+            ` : ''}
 
-  ${rep.site ? `
-    <div class="rep-site">${rep.site}</div>
-  ` : ''}
-</div>
+            ${rep.bargainingTeam ? `
+              <div
+                class="bargaining-badge"
+                title="Served on the contract bargaining team"
+              >
+                Bargaining Team
+              </div>
+            ` : ''}
+
+            ${rep.site ? `
+              <div class="rep-site">${rep.site}</div>
+            ` : ''}
+          </div>
 
           ${rep.shift === 'Day' ? `
-            <div class="shift-badge" title="Day Shift"><span class="icon">☀️</span></div>
+            <div class="shift-badge" title="Day Shift">
+              <span class="icon">☀️</span>
+            </div>
           ` : ''}
+
           ${rep.shift === 'Night' ? `
-            <div class="shift-badge" title="Night Shift"><span class="icon">🌙</span></div>
+            <div class="shift-badge" title="Night Shift">
+              <span class="icon">🌙</span>
+            </div>
           ` : ''}
+
           ${rep.shift === 'Mid' ? `
-            <div class="shift-badge" title="Mid Shift"><span class="icon">☀️🌙</span></div>
+            <div class="shift-badge" title="Mid Shift">
+              <span class="icon">☀️🌙</span>
+            </div>
           ` : ''}
 
-repName.innerHTML = representatives[campus]
-  .map(rep => `
-    <div class="rep-card">
-
-      <div class="unit-badge-wrapper">
-        ${rep.unit ? `
-          <div class="unit-badge ${rep.unit.toUpperCase() === 'NP' ? 'unit-np' : 'unit-rn'}">
-            ${rep.unit.toUpperCase()}
+          <div class="rep-name">
+            <strong>${rep.name}</strong>
           </div>
-        ` : ''}
 
-        ${rep.bargainingTeam ? `
-          <div
-            class="bargaining-badge"
-            title="Served on the contract bargaining team"
-          >
-            Bargaining Team
+          ${rep.title ? `
+            <div class="rep-title">${rep.title}</div>
+          ` : ''}
+
+          <div class="rep-buttons">
+            ${(rep.phone && !rep.textOnly) ? `
+              <a
+                href="tel:${rep.phone.replace(/-/g, '')}"
+                class="phone-button"
+              >
+                Call
+              </a>
+            ` : ''}
+
+            ${rep.phone ? `
+              <a
+                href="sms:${rep.phone.replace(/-/g, '')}"
+                class="text-button"
+              >
+                Text
+              </a>
+            ` : ''}
+
+            ${rep.email ? `
+              <a
+                href="mailto:${rep.email}"
+                class="email-button"
+              >
+                Email
+              </a>
+            ` : ''}
           </div>
-        ` : ''}
 
-        ${rep.site ? `
-          <div class="rep-site">${rep.site}</div>
-        ` : ''}
-      </div>
-
-      ${rep.shift === 'Day' ? `
-        <div class="shift-badge" title="Day Shift">
-          <span class="icon">☀️</span>
         </div>
-      ` : ''}
+      `)
+      .join('');
 
-      ${rep.shift === 'Night' ? `
-        <div class="shift-badge" title="Night Shift">
-          <span class="icon">🌙</span>
-        </div>
-      ` : ''}
-
-      ${rep.shift === 'Mid' ? `
-        <div class="shift-badge" title="Mid Shift">
-          <span class="icon">☀️🌙</span>
-        </div>
-      ` : ''}
-
-      <div class="rep-name">
-        <strong>${rep.name}</strong>
-      </div>
-
-      ${rep.title ? `
-        <div class="rep-title">${rep.title}</div>
-      ` : ''}
-
-      <div class="rep-buttons">
-        ${(rep.phone && !rep.textOnly) ? `
-          <a href="tel:${rep.phone.replace(/-/g, '')}" class="phone-button">
-            Call
-          </a>
-        ` : ''}
-
-        ${(rep.phone || rep.textOnly) ? `
-          <a href="sms:${rep.phone ? rep.phone.replace(/-/g, '') : ''}" class="text-button">
-            Text
-          </a>
-        ` : ''}
-
-        ${rep.email ? `
-          <a href="mailto:${rep.email}" class="email-button">
-            Email
-          </a>
-        ` : ''}
-      </div>
-
-    </div>
-  `)
-  .join('');
+  } else {
+    campusName.textContent = '';
+    campusHeader.style.display = 'none';
+    repInfo.style.display = 'none';
+    repName.innerHTML = '';
+  }
+}
 
 // ======== ESCALATION CONTACT DROPDOWN ========
 document.addEventListener('DOMContentLoaded', () => {
