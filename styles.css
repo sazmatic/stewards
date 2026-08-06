@@ -92,12 +92,12 @@ html, body {
 
 /* Bigger logo */
 .logo {
-  max-width: 300px;
-  padding: 0;
-  width: 100%
+  display: block;
+  width: 230px;
+  max-width: 100%;
   height: auto;
-  margin: 0 auto;
-  display:  block;
+  margin: -35px auto -20px;
+  padding: 0;
 }
 
 .hero-title {
