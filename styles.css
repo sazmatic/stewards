@@ -891,3 +891,7 @@ repName.innerHTML = representatives[campus]
   white-space: nowrap;
   text-transform: uppercase;
 }
+
+.rep-card:has(.bargaining-badge) {
+  padding-top: 22px;
+}
