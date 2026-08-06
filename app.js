@@ -188,9 +188,18 @@ function handleCampusChange() {
             <div class="shift-badge" title="Mid Shift"><span class="icon">☀️🌙</span></div>
           ` : ''}
 
-          <div class="rep-name">
-            <strong>${rep.name}</strong>
-          </div>
+<div class="rep-name">
+  <strong>${rep.name}</strong>
+
+  ${rep.bargainingTeam ? `
+    <span 
+      class="bargaining-badge"
+      title="Served on the contract bargaining team"
+    >
+      Bargaining Team
+    </span>
+  ` : ''}
+</div>
 
           ${rep.title ? `<div class="rep-title">${rep.title}</div>` : ''}
 
