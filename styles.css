@@ -851,3 +851,33 @@ repName.innerHTML = representatives[campus]
     margin: 5px auto 0;
   }
 }
+
+.rep-card {
+  position: relative;
+}
+
+.unit-badge-wrapper {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  z-index: 2;
+}
+
+.bargaining-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4e7b5;
+  color: #664e00;
+  padding: 5px 9px;
+  border-radius: 14px;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
