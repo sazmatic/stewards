@@ -114,7 +114,6 @@ const representatives = {
     { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrookslocal2024@yahoo.com" }
   ],
   "Wayne": [
-    { name: "Amanda Layne", unit: "RN", phone: "734-307-6027", shift: "Day", email: "alayne824@gmail.com" },
     { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", phone: "313-930-1298", email: "daniellepiechota@gmail.com" },
     { name: "Heather Maurer", unit: "RN", phone: "313-330-2196", email: "hmandalis@yahoo.com" },
