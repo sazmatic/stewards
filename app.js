@@ -6,7 +6,7 @@ const representatives = {
     { name: "Amra Kaliman", unit: "RN", shift: "Night", phone: "313-408-3809", email: "amrakal5@sbcglobal.net" },
     { name: "Anissa Hackett", unit: "RN", shift: "Day", phone: "313-522-6696", email: "anissahackett@gmail.com" },
     { name: "Anna Capling", unit: "RN", shift: "Day", phone: "313-969-0482", email: "annacapling9@gmail.com" },
-    { name: "Becky Smola", unit: "RN", shift: "Day", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com" },
+    { name: "Becky Smola", unit: "RN", shift: "Day", phone: "734-693-3076", email: "rebeccasmola1984@gmail.com", bargainingTeam: yes},
     { name: "Bretton Buccilli", unit: "RN", shift: "Day", phone: "248-444-5431", email: "bretton.buccilli@gmail.com" },
     { name: "Erika Montgomery", unit: "RN", shift: "Day", email: "montgomery113@ymail.com" },
     { name: "Herb Lorentz", unit: "RN", shift: "Day", email: "jrsice2@gmail.com" },
