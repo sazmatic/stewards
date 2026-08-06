@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
         content = `
           <div class="rep-card">
             <div class="rep-name"><strong>Dave Hughes</strong></div>
-            <div class="rep-title highlight-blue">Teamsters Joint Council 43</div>
+            <div class="rep-title highlight-blue">Teamsters Local 2024</div>
             <div class="rep-title">Teamsters Local 2024 Representative</div>
             <div class="rep-buttons">
               <a href="tel:5865193930" class="phone-button">Call</a>
