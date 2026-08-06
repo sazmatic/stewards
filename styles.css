@@ -70,13 +70,15 @@ html, body {
 
 .hero {
   background: #fff;
-  padding: 10px 20px 10;
+  padding: 0 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   border-bottom: 1px solid #ddd;
+  gap: 8px;
 }
+
 
 /* Horizontal layout for logo + title */
 .hero-row {
