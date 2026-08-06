@@ -107,17 +107,17 @@ const representatives = {
     { name: "Giulia Heiden", unit: "RN", shift: "Day", phone: "586-443-3566", email: "giulia.calimazzo@gmail.com" },
     { name: "Holly Kowal", unit: "RN", shift: "Day", phone: "313-418-2405", email: "lonemirage02@gmail.com" },
     { name: "Jody Woodley", unit: "RN", shift: "Day", phone: "586-212-8398", email: "jlynnwoodley@yahoo.com" },
-    { name: "Samantha Parisi", unit: "RN", shift: "Day", site: "Lenox", phone: "586-322-4085", email: "samantharn92@gmail.com" },
-    { name: "Stephanie Brooks", unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrookslocal2024@yahoo.com" }
+    { name: "Samantha Parisi", bargainingTeam: true, unit: "RN", shift: "Day", site: "Lenox", phone: "586-322-4085", email: "samantharn92@gmail.com" },
+    { name: "Stephanie Brooks", bargainingTeam: true, unit: "RN", shift: "Day", site: "Lenox", phone: "586-747-3995", email: "sbrookslocal2024@yahoo.com" }
   ],
   "Wayne": [
-    { name: "Carol Goscinski", unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
+    { name: "Carol Goscinski", bargainingTeam: true, unit: "RN", phone: "517-212-0165", email: "carolgoscinskirn@gmail.com" },
     { name: "Danielle Caldwell", unit: "RN", phone: "313-930-1298", email: "daniellepiechota@gmail.com" },
     { name: "Heather Maurer", unit: "RN", phone: "313-330-2196", email: "hmandalis@yahoo.com" },
-    { name: "Jason Fratangelo", unit: "RN", shift: "Day", phone: "734-624-8172", email: "Jfratlocal2024@gmail.com" },
-    { name: "Lisa Rich", unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
+    { name: "Jason Fratangelo", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-624-8172", email: "Jfratlocal2024@gmail.com" },
+    { name: "Lisa Rich", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-612-4746", email: "l.rich3@yahoo.com" },
     { name: "Mandy O’Rourke", unit: "RN", phone: "313-460-2480", email: "morourke516@yahoo.com" },
-    { name: "Natalie Lunsford", unit: "RN", shift: "Day", phone: "734-250-4073", email: "natrn91@wowway.com" },
+    { name: "Natalie Lunsford", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-250-4073", email: "natrn91@wowway.com" },
     { name: "Tracy Barr", unit: "RN", email: "morkielu@yahoo.com" },
   ],
   "Southfield": [
@@ -125,14 +125,14 @@ const representatives = {
     { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", phone: "586-933-3250", email: "Jnb904@hotmail.com" },
     { name: "Katelyn Savage", shift: "Day", unit: "RN", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
-    { name: "Katie Wilson", shift: "Mid", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "katielw415@yahoo.com" },
-    { name: "Lindsey Paulick", unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
-    { name: "Meredith Corsetti", shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
+    { name: "Katie Wilson", bargainingTeam: true, shift: "Mid", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "katielw415@yahoo.com" },
+    { name: "Lindsey Paulick", bargainingTeam: true, unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
+    { name: "Meredith Corsetti", bargainingTeam: true, shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
     { name: "Misty Gorman", shift: "Day", unit: "RN", phone: "313-310-0727", email: "mistyrg72@gmail.com" },
     { name: "Rosanne Ritzman", unit: "RN", email: "ritzman1123@gmail.com" },
   ],
   "Taylor": [
-    { name: "Alison Lorentz", unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
+    { name: "Alison Lorentz", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
     { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", textOnly: true, email: "brittanydejon610@gmail.com" },
     { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", textOnly: true, email: "Heather.vorhoff@yahoo.com" },
     { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", textOnly: true, email: "kwainman@aol.com" },
@@ -143,10 +143,10 @@ const representatives = {
   ],
   "Trenton": [
     { name: "Andrew Boucher", unit: "RN", email: "atboucher@hotmail.com" },
-    { name: "Cari York", unit: "RN", phone: "313-300-3523", email: "Dougcupcake@sbcglobal.net" },
+    { name: "Cari York", bargainingTeam: true, unit: "RN", phone: "313-300-3523", email: "Dougcupcake@sbcglobal.net" },
     { name: "Deborah Lyles", unit: "RN", phone: "313-549-7249", email: "Deblyles21@yahoo.com" },
-    { name: "Keli Wludyka", unit: "RN", phone: "313-268-7768", email: "Kwludyka@wowway.com" },
-    { name: "Kerri Donovan", unit: "RN", phone: "734-925-1162", email: "Kerridonovan5@gmail.com" },
+    { name: "Keli Wludyka", bargainingTeam: true, unit: "RN", phone: "313-268-7768", email: "Kwludyka@wowway.com" },
+    { name: "Kerri Donovan", bargainingTeam: true, unit: "RN", phone: "734-925-1162", email: "Kerridonovan5@gmail.com" },
     { name: "Thomas Bellman", unit: "RN", phone: "734-497-7169", email: "tbellman411@hotmail.com" },
   ]
 };
