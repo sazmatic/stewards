@@ -826,3 +826,28 @@ repName.innerHTML = representatives[campus]
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transform: translateY(-1px);
 }
+
+.bargaining-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background-color: #fff3cd;
+  color: #6b4f00;
+  border: 1px solid #e5c45b;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .bargaining-badge {
+    display: flex;
+    width: fit-content;
+    margin: 5px auto 0;
+  }
+}
