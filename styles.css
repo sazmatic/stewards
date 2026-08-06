@@ -237,6 +237,46 @@ select option {
   width: 100%;
 }
 
+/* BARGAINING TEAM CARD */
+.rep-card:has(.bargaining-badge) {
+  padding-top: 58px;
+}
+
+.bargaining-badge {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 145px;
+  height: 32px;
+  padding: 0 16px;
+
+  background-color: #003366;
+  color: #ffffff;
+
+  border: 2px solid #00264d;
+  border-radius: 8px;
+
+  box-shadow:
+    0 3px 0 #001f3f,
+    0 5px 9px rgba(0, 51, 102, 0.22);
+
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  z-index: 3;
+}
+
 .rep-title {
   font-size: 14px;
   color: #555;
