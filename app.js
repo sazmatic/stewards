@@ -121,6 +121,7 @@ const representatives = {
   ],
   "Southfield": [
     { name: "Amy Pinneo", shift: "Day", unit: "RN", phone: "313-445-0710", email: "helmamy13@gmail.com" },
+    { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", email: "brittanydejon610@gmail.com" },
     { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", phone: "586-933-3250", email: "Jnb904@hotmail.com" },
     { name: "Katelyn Savage", shift: "Day", unit: "RN", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
@@ -132,7 +133,6 @@ const representatives = {
   ],
   "Taylor": [
     { name: "Alison Lorentz", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
-    { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", textOnly: true, email: "brittanydejon610@gmail.com" },
     { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", textOnly: true, email: "Heather.vorhoff@yahoo.com" },
     { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", textOnly: true, email: "kwainman@aol.com" },
     { name: "Michelle Wood", unit: "NP", email: "mpwood.mpw@gmail.com" },
