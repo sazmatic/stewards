@@ -57,6 +57,7 @@ const representatives = {
   "Troy": [
     { name: "Amy Held", unit: "RN", phone: "248-703-2246", email: "ymaheld@gmail.com" },
     { name: "Angela Oltean", unit: "RN", email: "angela.emory44@yahoo.com" },
+    { name: "Angela Haynes", unit: "RN", email: "angie_vani@yahoo.com" },
     { name: "Ashley Kraft", unit: "RN", email: "ashhbroski@gmail.com" },
     { name: "Barb Douglas", bargainingTeam: true, unit: "RN", phone: "248-565-6594", email: "bdouglas2421@gmail.com" },
     { name: "Brenda Tesnar", unit: "RN", shift: "Night", phone: "248-895-5738", email: "beetesnar71@gmail.com" },
@@ -78,6 +79,7 @@ const representatives = {
     { name: "Julie Marshall", unit: "RN", shift: "Day", email: "Wyjamrn@sbcglobal.net" },
     { name: "Karen Shubring", unit: "RN", email: "kschub60@gmail.com" },
     { name: "Katherine Wallace", bargainingTeam: true, unit: "RN", phone: "248-404-8084", email: "gr8chi@aol.com" },
+    { name: "Kelly Abraham", unit: "RN", email: "abrahamkelly98@gmail.com" },
     { name: "Lisa Funke", unit: "RN", email: "funkelisa80@yahoo.com" },
     { name: "Liz Rossi", unit: "RN", email: "ayalizzy@yahoo.com" },
     { name: "Marley Shook", unit: "NP", phone: "586-567-3122", email: "marleyshook313@gmail.com" },
