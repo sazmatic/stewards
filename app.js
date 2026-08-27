@@ -126,7 +126,6 @@ const representatives = {
     { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", email: "brittanydejon610@gmail.com" },
     { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", phone: "586-933-3250", email: "Jnb904@hotmail.com" },
-    { name: "Katelyn Savage", shift: "Day", unit: "RN", phone: "586-819-9421", email: "Krsavage0@gmail.com" },
     { name: "Katie Wilson", bargainingTeam: true, shift: "Mid", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "katielw415@yahoo.com" },
     { name: "Lindsey Paulick", bargainingTeam: true, unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
     { name: "Meredith Corsetti", bargainingTeam: true, shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
