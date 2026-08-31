@@ -29,7 +29,6 @@ const representatives = {
     { name: "Emily Bogart", bargainingTeam: true, shift: "Day", unit: "NP", email: "embogart@gmail.com" },
     { name: "Emmy Castillon", shift: "Day", unit: "RN", email: "emmycastillon1@gmail.com" },
     { name: "Jacquelyn Whitmore", shift: "Day", unit: "RN", phone: "734-837-3291", email: "Jczarn01@outlook.com" },
-    { name: "Jenna Rousso", shift: "Day", site: "Care Coordinator", unit: "RN", phone: "203-394-1901", email: "jennar2128@gmail.com" },
     { name: "Jill Judkins", shift: "Day", unit: "RN", phone: "248-224-1494", email: "timjudkins@comcast.net" },
     { name: "Judie Laverdiere", shift: "Day", unit: "RN", phone: "248-761-4755", email: "Judie.laverdiere@gmail.com" },
     { name: "Judy Hayes", shift: "Day", unit: "RN", phone: "248-909-6619", email: "Lucykayla2@yahoo.com" },
@@ -128,6 +127,7 @@ const representatives = {
     { name: "Brittany DeJohn", unit: "RN", shift: "Day", phone: "313-694-8718", email: "brittanydejon610@gmail.com" },
     { name: "Hollie Clair", unit: "RN", phone: "734-286-4222", email: "Hclinne@gmail.com" },
     { name: "Jana Nicol Weinert", shift: "Day", unit: "RN", phone: "586-933-3250", email: "Jnb904@hotmail.com" },
+    { name: "Jenna Rousso", shift: "Day", site: "Care Coordinator", unit: "RN", phone: "203-394-1901", email: "jennar2128@gmail.com" },
     { name: "Katie Wilson", bargainingTeam: true, shift: "Mid", unit: "RN", site: "Flex RN", phone: "313-400-6424", email: "katielw415@yahoo.com" },
     { name: "Lindsey Paulick", bargainingTeam: true, unit: "RN", phone: "248-245-6273", email: "lindseypaulickRN@hotmail.com" },
     { name: "Meredith Corsetti", bargainingTeam: true, shift: "Night", unit: "RN", phone: "248-376-7712", email: "millermeredith@hotmail.com" },
@@ -149,6 +149,7 @@ const representatives = {
     { name: "Deborah Lyles", unit: "RN", phone: "313-549-7249", email: "Deblyles21@yahoo.com" },
     { name: "Keli Wludyka", bargainingTeam: true, unit: "RN", phone: "313-268-7768", email: "Kwludyka@wowway.com" },
     { name: "Kerri Donovan", unit: "RN", phone: "734-925-1162", email: "Kerridonovan5@gmail.com" },
+    { name: "Wynston Senczyszyn", unit: "RN", phone: "313-779-1047", email: "Wynston.mccreary@gmail.com" },
   ]
 };
 
