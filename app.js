@@ -130,7 +130,6 @@ const representatives = {
   ],
   "Taylor": [
     { name: "Alison Lorentz", bargainingTeam: true, unit: "RN", shift: "Day", phone: "734-718-5366", email: "jrsice1@gmail.com" },
-    { name: "Heather Vorhoff", unit: "RN", shift: "Day", phone: "734-747-2369", textOnly: true, email: "Heather.vorhoff@yahoo.com" },
     { name: "Kate Seidel", unit: "RN", shift: "Day", phone: "248-790-0982", textOnly: true, email: "kwainman@aol.com" },
     { name: "Michelle Wood", unit: "NP", email: "mpwood.mpw@gmail.com" },
     { name: "Mike Gumbis", unit: "RN", shift: "Night", phone: "734-752-0916", textOnly: true, email: "Mlgumbis02@yahoo.com" },
